@@ -1,17 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FishNet.Connection;
+using FishNet.Object;
 
 
 [RequireComponent(typeof(CharacterController))]
 
-public class Player : MonoBehaviour
+public class Player : NetworkBehaviour
 {
     public float walkingSpeed = 10.5f;
     public float runningSpeed = 21.5f;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
-    public Camera playerCamera;
+    //public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
 
@@ -22,6 +24,26 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public bool canMove = true;
 
+    [SerializeField] 
+    private float cameraYOffset = 1.5f;
+    private Camera playerCamera2;
+    
+    public override void OnStartClient()
+    {
+        base.OnStartClient();
+        if (base.IsOwner)
+        {
+            playerCamera2 = Camera.main;
+            playerCamera2.transform.position = new Vector3(transform.position.x, transform.position.y + cameraYOffset,
+                transform.position.z);
+            playerCamera2.transform.SetParent(transform);
+        }
+        else
+        {
+            gameObject.GetComponent<Player>().enabled = false;
+        }
+    }
+    
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -64,11 +86,11 @@ public class Player : MonoBehaviour
         characterController.Move(moveDirection * Time.deltaTime);
 
         // Player and Camera rotation
-        if (canMove)
+        if (canMove && playerCamera2 != null)
         {
             rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
-            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
+            playerCamera2.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
 
