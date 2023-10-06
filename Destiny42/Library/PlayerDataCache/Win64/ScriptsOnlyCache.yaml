@@ -29,6 +29,7 @@ ScriptsOnlyBuild:
     - FishNet.Managing.Observing.ObserverManager
     - FishNet.Object.NetworkObject
     - FishNet.Observing.NetworkObserver
+    - FishNet.Transporting.Tugboat.Tugboat
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -93,6 +94,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2152}
     - Class: 114
       Script: {instanceID: 2208}
+    - Class: 114
+      Script: {instanceID: 2356}
     - Class: 114
       Script: {instanceID: 2610}
     - Class: 114
@@ -1183,5 +1186,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/mathi/Desktop/SDU/7. Semester/Social Technology Lab/Destiny42
-    Build/Destiny42.exe
+  playerPath: C:/Users/mathi/Documents/SDU/7. Semester/Social Technology Lab/Boss
+    Game/Build/Destiny42.exe
