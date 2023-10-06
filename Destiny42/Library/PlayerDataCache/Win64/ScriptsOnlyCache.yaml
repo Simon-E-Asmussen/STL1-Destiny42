@@ -1186,5 +1186,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/mathi/Documents/SDU/7. Semester/Social Technology Lab/Boss
-    Game/Build/Destiny42.exe
+  playerPath: C:/Users/mathi/Desktop/SDU/7. Semester/Social Technology Lab/Online
+    Build/Destiny42.exe

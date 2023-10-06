@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 43
+  controlID: 107
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,10 +326,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -514
-    m_HBaseRangeMax: 514
-    m_VBaseRangeMin: -289
-    m_VBaseRangeMax: 289
+    m_HBaseRangeMin: -519
+    m_HBaseRangeMax: 519
+    m_VBaseRangeMin: -292
+    m_VBaseRangeMax: 292
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -346,11 +346,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1038
-      height: 578
+      height: 599
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 519, y: 289}
+    m_Translation: {x: 519, y: 299.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -358,9 +358,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -519
-      y: -289
+      y: -299.5
       width: 1038
-      height: 578
+      height: 599
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1038, y: 599}
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.10955455, y: -0.025348648, z: 0.0027895612, w: 0.9936689}
     speed: 2
-    m_Value: {x: 0.10955289, y: -0.025348265, z: 0.002789519, w: 0.9936539}
+    m_Value: {x: -0.10955455, y: 0.025348648, z: -0.0027895612, w: -0.9936689}
   m_Size:
     m_Target: 113.63909
     speed: 2
@@ -576,7 +576,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: bcf3ffffdef3ffff36f5ffff1af8ffff3cf8ffff94f9ffff6efbffff
+      m_ExpandedIDs: 0af7ffff2cf7ffff84f8ffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -638,23 +638,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss
-    Game\STL1-Destiny42\Destiny42
+  m_LastProjectPath: C:\Users\mathi\Desktop\SDU\7. Semester\Social Technology Lab\Git\STL1-Destiny42\Destiny42
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1e480000
-    m_LastClickedID: 18462
-    m_ExpandedIDs: 000000000a48000000ca9a3b
+    m_SelectedIDs: 06490000
+    m_LastClickedID: 18694
+    m_ExpandedIDs: 000000000649000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -682,7 +681,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a480000
+    m_ExpandedIDs: 0000000006490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -709,7 +708,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300002c4400009e450000be45000090460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
