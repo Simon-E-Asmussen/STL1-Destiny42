@@ -15,11 +15,11 @@ C:/Users/mukop/OneDrive/Documents/GitHub/STL1-Destiny42/Destiny42
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55408
+59017
 Successfully changed project path to: C:/Users/mukop/OneDrive/Documents/GitHub/STL1-Destiny42/Destiny42
 C:/Users/mukop/OneDrive/Documents/GitHub/STL1-Destiny42/Destiny42
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 93.11 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -35,129 +35,129 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002854 seconds.
+Registered in 0.002645 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 248.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.737 seconds
+- Completed reload, in  1.240 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1737ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1240ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1430ms)
-			LoadAssemblies (140ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
+			SetupTypeCache (302ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (126ms)
-			SetupLoadedEditorAssemblies (616ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (248ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011134 seconds.
+Registered in 0.008389 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002276D7D9010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file data-000002E109736010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276D729010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file data-000002E10A822010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BAAB890 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002E108B6D3F0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BD126D0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002E1098B7820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E401040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file data-000002E10A067030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276D7F2630 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002E109741620 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BAAB890 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002E10714B660 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276D760220 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002E10A859220 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E4CA010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002E1082BB420 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E4CA010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002E109702E20 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E4CA010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002E1082BB420 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BE87C20 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002E10975E840 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E4A4820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002E108704830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E4A4820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file data-000002E108704830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BAAB890 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file data-000002E10855BDA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BAAB890 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002E10714B660 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276F33E020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002E10886A010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276D93CE30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002E10855BDA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276D6F6020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002E1082E3A30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276EF11040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file data-000002E109717830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.055 seconds
+- Completed reload, in  2.591 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3057ms)
-		BeginReloadAssembly (342ms)
+	ReloadAssembly (2593ms)
+		BeginReloadAssembly (334ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (2534ms)
-			LoadAssemblies (363ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2138ms)
+			LoadAssemblies (226ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (858ms)
+			SetupTypeCache (590ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (150ms)
-			SetupLoadedEditorAssemblies (906ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (920ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (226ms)
-				ProcessInitializeOnLoadAttributes (613ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (273ms)
+				ProcessInitializeOnLoadAttributes (582ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.0 MB.
 System memory in use after: 87.1 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2516.
-Total: 8.425400 ms (FindLiveObjects: 0.374200 ms CreateObjectMapping: 0.187900 ms MarkObjects: 7.708400 ms  DeleteObjects: 0.152300 ms)
+Total: 6.531300 ms (FindLiveObjects: 0.331300 ms CreateObjectMapping: 0.225900 ms MarkObjects: 5.853700 ms  DeleteObjects: 0.118400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -171,106 +171,580 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/GunBase.cs
-  artifactKey: Guid(3f85a702a30698c4c92dd4f10df23a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GunBase.cs using Guid(3f85a702a30698c4c92dd4f10df23a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1009ac7bbaabc7b20a2bb411afa2eaa1') in 0.169985 seconds 
+  path: Assets/Prefabs/FPSplayer.prefab
+  artifactKey: Guid(89880fc79c23b404c990c9b9dfc417ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FPSplayer.prefab using Guid(89880fc79c23b404c990c9b9dfc417ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178b2d418007dcdb7a5e70614f9ef8b7') in 0.385088 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 170.889577 seconds.
-  path: Assets/GunBase.cs
-  artifactKey: Guid(3f85a702a30698c4c92dd4f10df23a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GunBase.cs using Guid(3f85a702a30698c4c92dd4f10df23a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bae5638f7eede0ccb41ee73e8723186') in 0.010721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 44.857325 seconds.
-  path: Assets/GunBase.cs
-  artifactKey: Guid(3f85a702a30698c4c92dd4f10df23a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GunBase.cs using Guid(3f85a702a30698c4c92dd4f10df23a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349fc517de8cc05a3f8ecc01ea21acb9') in 0.008811 seconds 
+  Time since last request: 178.974461 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(676785c8ef0cd7a4d8b3314d3df938fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(676785c8ef0cd7a4d8b3314d3df938fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c252c3e82aab70548b894c91b8d3f17') in 0.089475 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007453 seconds.
+Registered in 0.026996 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002276CA593F0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file data-000002E10898D020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276D729010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file data-000002E10898D020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BAAB890 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002E10CC9C360 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BF44080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002E10A493A50 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276FA68030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file data-000002E10B017030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022744109050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002E10DA16010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BFC3EA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002E10741D480 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276D80FC50 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002E109F200B0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E475010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002E10987A010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E705010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002E1072D7010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276CCA8450 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002E1082BB420 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000227719D6020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002E109F200B0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E4A4820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002E10AC75010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276CD56020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276D762E30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file data-000002E10855BDA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276BFC3EA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002E10741D480 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276FAEF410 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002E108CDD020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276D762E30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002E10855BDA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276E113F30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002E10999E020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002276CA90600 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file data-000002E108712830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.005 seconds
+- Completed reload, in  3.332 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2006ms)
-		BeginReloadAssembly (205ms)
+	ReloadAssembly (3334ms)
+		BeginReloadAssembly (417ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (2698ms)
+			LoadAssemblies (389ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1015ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (961ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (684ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 7.541200 ms (FindLiveObjects: 0.332000 ms CreateObjectMapping: 0.133000 ms MarkObjects: 7.012000 ms  DeleteObjects: 0.062000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008490 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E1098EA020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10898D020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AC2E020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10C8248B0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1073A9010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107F27D90 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10741D480 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109F200B0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10898D020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108B653E0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10DBA3030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109F200B0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10B006020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10855BDA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10741D480 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108CDD020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10855BDA0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107266D50 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108712830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2064ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1712ms)
+			LoadAssemblies (224ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (650ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (436ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2533.
+Total: 4.916700 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.134300 ms MarkObjects: 4.445600 ms  DeleteObjects: 0.036900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008311 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E10AFB2030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10898D020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E106DDA030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10DBB20E0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1073A9010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107F27D90 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109CFB820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A120A60 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10898D020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108B653E0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10743D010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A120A60 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CBF4080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109CFB820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1089E1020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CEB6020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108712830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3047ms)
+		BeginReloadAssembly (301ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (4ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (2561ms)
+			LoadAssemblies (294ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1106ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (765ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (516ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2536.
+Total: 7.904200 ms (FindLiveObjects: 0.378200 ms CreateObjectMapping: 0.140700 ms MarkObjects: 7.334700 ms  DeleteObjects: 0.048600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005489 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E10B2FA040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109CFB820 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10D2C30C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10B209010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107F27D90 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AF87010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A120A60 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107F27D90 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1073FD470 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A120A60 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CBF4080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AF87010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB86020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108B31020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10C85C170 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2239ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1857ms)
+			LoadAssemblies (238ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (629ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (651ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 5.197000 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.077000 ms MarkObjects: 4.828900 ms  DeleteObjects: 0.041700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010371 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E1082CD010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10D20B500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10D176010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AE7F8B0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10B209010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A930010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109A4B020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109BAF020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10D20B500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A910080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10743D010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109F200B0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107152500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109A4B020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107E9A020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AE9B030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108712830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.310 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2311ms)
+		BeginReloadAssembly (383ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1775ms)
+			LoadAssemblies (395ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (634ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2542.
+Total: 5.913000 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.105700 ms MarkObjects: 5.425900 ms  DeleteObjects: 0.043700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006934 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E108CEF010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10D20B500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AC2E020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10DFB40C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107F39DB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A930010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109A4B020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AF87010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10D20B500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A910080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10743D010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A120A60 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107152500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1082F6020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10C818010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AE9B030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108712830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2154ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1679ms)
-			LoadAssemblies (228ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1797ms)
+			LoadAssemblies (215ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (614ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (536ms)
+			SetupTypeCache (644ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (604ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (363ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2519.
-Total: 5.655800 ms (FindLiveObjects: 0.270700 ms CreateObjectMapping: 0.094800 ms MarkObjects: 5.239700 ms  DeleteObjects: 0.048500 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2545.
+Total: 6.506500 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.151000 ms MarkObjects: 5.992800 ms  DeleteObjects: 0.043600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -283,21 +757,483 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 21.600272 seconds.
-  path: Assets/Prefabs/FPSplayer.prefab
-  artifactKey: Guid(89880fc79c23b404c990c9b9dfc417ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FPSplayer.prefab using Guid(89880fc79c23b404c990c9b9dfc417ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80750c77ff8d79a7823661bf72dc1264') in 0.181734 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E108CEF010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10D20B500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108A11080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10E072480 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109911640 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10DC5D040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10E21D020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AF87010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10D20B500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10C96E020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10743D010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10ABB0520 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107152500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108A11080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1082F6020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AFB2030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108A11080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AE9B030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108712830 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.385 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2386ms)
+		BeginReloadAssembly (309ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1932ms)
+			LoadAssemblies (269ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (715ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (661ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (445ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2548.
+Total: 5.803900 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.160800 ms MarkObjects: 5.292100 ms  DeleteObjects: 0.039400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 133.526491 seconds.
-  path: Assets/Mats
-  artifactKey: Guid(9c36e37e428ff0a4d8ae60c0238dd36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mats using Guid(9c36e37e428ff0a4d8ae60c0238dd36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60649b4eadb189fe69f7f3078f20da88') in 0.009619 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007537 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E108CEF010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10D176010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10DC298C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1073A9010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107208020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10E21D020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10ABB0520 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107208020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10E061050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10ABB0520 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107152500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10E21D020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10997E010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AE9B030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CD1D170 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.341 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2342ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1948ms)
+			LoadAssemblies (245ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (697ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 6.559500 ms (FindLiveObjects: 0.330900 ms CreateObjectMapping: 0.199700 ms MarkObjects: 5.982600 ms  DeleteObjects: 0.044100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 49.284260 seconds.
-  path: Assets/Prefabs/Hit.prefab
-  artifactKey: Guid(c0e5e68cf99966042964c2bcfb89c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Hit.prefab using Guid(c0e5e68cf99966042964c2bcfb89c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b255e65852d5e1669481a6382f7541') in 0.065508 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031789 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E108CEF010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10836EB30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AD038C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1073A9010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10DC5D040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109A4B020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AF87010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10B1C4710 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1073FD470 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1080BC9C0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107152500 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10836EB30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109A4B020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10997E010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10836EB30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A06CF60 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CF65450 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.596 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2598ms)
+		BeginReloadAssembly (324ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2057ms)
+			LoadAssemblies (253ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (773ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (187ms)
+			SetupLoadedEditorAssemblies (689ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (495ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2554.
+Total: 6.728000 ms (FindLiveObjects: 0.385200 ms CreateObjectMapping: 0.145800 ms MarkObjects: 6.148800 ms  DeleteObjects: 0.045900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016486 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E108CEF010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108A11080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108327A30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1073A9010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107208020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109A4B020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A120A60 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E107186030 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A2D5010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10A120A60 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CBF4080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10746E050 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108A11080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109A4B020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10997E010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E108A11080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10C96E020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CF65450 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.148 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2149ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1707ms)
+			LoadAssemblies (248ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (601ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (597ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 8.293400 ms (FindLiveObjects: 1.108900 ms CreateObjectMapping: 0.456700 ms MarkObjects: 6.638000 ms  DeleteObjects: 0.085900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012681 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002E108CEF010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10836EB30 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10B3F00E0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1073A9010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10DC5D040 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109A4B020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10ABB0520 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E1086D5020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10E215010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E12EDF8010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10ABB0520 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CBF4080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CBF4080 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E109A4B020 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10997E010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AB5CDB0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10CCF1010 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E10AC183F0 doesn't match image C:\Users\mukop\OneDrive\Documents\GitHub\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2224ms)
+		BeginReloadAssembly (288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1745ms)
+			LoadAssemblies (254ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (648ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (642ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (445ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.1 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 7.398400 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.100000 ms MarkObjects: 6.944600 ms  DeleteObjects: 0.055400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -296,7 +296,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6246797649955350290}
-  - component: {fileID: 6246797649955350381}
   - component: {fileID: 118552481406684106}
   m_Layer: 0
   m_Name: Gun
@@ -320,26 +319,6 @@ Transform:
   m_Father: {fileID: 6246797651336079828}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6246797649955350381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6246797649955350291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f85a702a30698c4c92dd4f10df23a11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _componentIndexCache: 2
-  _addedNetworkObject: {fileID: 6246797651336079824}
-  _networkObjectCache: {fileID: 6246797651336079824}
-  gunDamage: 0
-  fireRate: 0
-  weaponRange: 0
-  hitForce: 0
-  gunEnd: {fileID: 0}
 --- !u!120 &118552481406684106
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -716,8 +695,9 @@ MonoBehaviour:
   <PredictedSpawn>k__BackingField: {fileID: 0}
   _networkBehaviours:
   - {fileID: 6246797651336079831}
+  - {fileID: 7044853277526425504}
   - {fileID: 6246797651336079825}
-  - {fileID: 6246797649955350381}
+  - {fileID: 0}
   <ParentNetworkObject>k__BackingField: {fileID: 0}
   <ChildNetworkObjects>k__BackingField: []
   SerializedTransformProperties:
@@ -740,9 +720,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f85a702a30698c4c92dd4f10df23a11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _componentIndexCache: 255
+  _componentIndexCache: 1
   _addedNetworkObject: {fileID: 6246797651336079824}
-  _networkObjectCache: {fileID: 0}
+  _networkObjectCache: {fileID: 6246797651336079824}
   gunDamage: 0
   fireRate: 0
   weaponRange: 0
@@ -760,7 +740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2836e36774ca1c4bbbee976e17b649c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _componentIndexCache: 1
+  _componentIndexCache: 2
   _addedNetworkObject: {fileID: 6246797651336079824}
   _networkObjectCache: {fileID: 6246797651336079824}
   _componentConfiguration: 0

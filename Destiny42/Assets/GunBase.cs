@@ -40,7 +40,9 @@ public class GunBase : NetworkBehaviour
 
         gunAudio = GetComponent<AudioSource>();
 
-        fpsCam = GetComponent<Camera>();
+        fpsCam = Camera.main;
+
+       
 
     }
 
@@ -52,11 +54,39 @@ public class GunBase : NetworkBehaviour
         {
             nextFire = Time.time + fireRate;
 
-           // *Not implemented* StartCoroutine(ShotEffect());
+            Debug.Log("Bang!");
+            
+
+           StartCoroutine(ShotEffect());
 
             Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0.0f));
+
+            RaycastHit hit;
+
+            laserLine.SetPosition(0, gunEnd.position);
+
+            if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit, weaponRange))
+            {
+                laserLine.SetPosition(1, hit.point);
+            }
+            else
+            {
+                laserLine.SetPosition(1, rayOrigin + (fpsCam.transform.forward * weaponRange));
+            }
         }
 
+
+    }
+
+    private IEnumerator ShotEffect()
+    {
+       // gunAudio.Play();
+
+        laserLine.enabled = true;
+
+        yield return shotDuration;
+
+        laserLine.enabled = false;
     }
 
 }
