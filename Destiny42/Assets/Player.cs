@@ -25,7 +25,7 @@ public class Player : NetworkBehaviour
     public bool canMove = true;
 
     [SerializeField] 
-    private float cameraYOffset = 1.5f;
+    private float cameraYOffset = 5f;
     private Camera playerCamera2;
     
     public override void OnStartClient()
