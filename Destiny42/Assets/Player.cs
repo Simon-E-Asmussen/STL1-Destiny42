@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,14 +26,21 @@ public class Player : NetworkBehaviour
     public bool canMove = true;
 
     [SerializeField] 
-    private float cameraYOffset = 5f;
+    private float cameraYOffset;
     private Camera playerCamera2;
+
+    private GameObject GameManager;
+    private Gamemanager _gamemanager;
     
     public override void OnStartClient()
     {
+        GameManager = GameObject.Find("GameManager");
+        _gamemanager = GameManager.GetComponent<Gamemanager>();
+        
         base.OnStartClient();
         if (base.IsOwner)
         {
+            ChangeYOffset(_gamemanager.IsBoss);
             playerCamera2 = Camera.main;
             playerCamera2.transform.position = new Vector3(transform.position.x, transform.position.y + cameraYOffset,
                 transform.position.z);
@@ -43,7 +51,19 @@ public class Player : NetworkBehaviour
             gameObject.GetComponent<Player>().enabled = false;
         }
     }
-    
+
+    private void ChangeYOffset(bool isBoss)
+    {
+        if (isBoss == false)
+        {
+            cameraYOffset = 1.5f;
+        }
+        else
+        {
+            cameraYOffset = 3.5f;
+        }
+    }
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();

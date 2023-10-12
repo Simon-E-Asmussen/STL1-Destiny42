@@ -24,6 +24,11 @@ public class Gamemanager : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
+        SelectPlayerType();
+    }
+
+    private void SelectPlayerType()
+    {
         if (IsBoss)
         {
             _playerSpawner.ChangePlayerPrefab(boss);
