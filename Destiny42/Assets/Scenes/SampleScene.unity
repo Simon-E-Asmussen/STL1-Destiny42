@@ -3319,7 +3319,7 @@ MonoBehaviour:
     Rotation: {x: 0, y: 0, z: 0, w: 1}
     LocalScale: {x: 1, y: 1, z: 1}
   _isNetworked: 0
-  _isGlobal: 1
+  _isGlobal: 0
   _initializeOrder: 0
   _defaultDespawnType: 0
 --- !u!114 &913597404
