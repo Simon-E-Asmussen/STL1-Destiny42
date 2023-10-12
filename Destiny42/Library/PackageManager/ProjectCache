@@ -112,6 +112,7 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         - 2.1.0
+        - 2.2.0
         compatible:
         - 1.15.13
         - 1.15.15
@@ -242,6 +243,7 @@ m_PackageAssets:
         - 3.0.22
         - 3.0.24
         - 3.0.25
+        - 3.0.26
         compatible:
         - 1.0.2
         - 1.0.6
@@ -282,6 +284,7 @@ m_PackageAssets:
         - 3.0.22
         - 3.0.24
         - 3.0.25
+        - 3.0.26
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -361,6 +364,7 @@ m_PackageAssets:
         - 2.0.18
         - 2.0.20
         - 2.0.21
+        - 2.0.22
         compatible:
         - 1.0.2
         - 1.0.3
@@ -385,7 +389,8 @@ m_PackageAssets:
         - 2.0.18
         - 2.0.20
         - 2.0.21
-        verified: 2.0.21
+        - 2.0.22
+        verified: 2.0.22
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -884,12 +889,14 @@ m_PackageAssets:
         - 1.7.3
         - 1.7.4
         - 1.7.5
+        - 1.7.6
         - 1.8.0
         - 1.8.1
         - 1.8.2
         - 1.8.3
         - 1.8.4
         - 1.8.5
+        - 1.8.6
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -923,12 +930,14 @@ m_PackageAssets:
         - 1.7.3
         - 1.7.4
         - 1.7.5
+        - 1.7.6
         - 1.8.0
         - 1.8.1
         - 1.8.2
         - 1.8.3
         - 1.8.4
         - 1.8.5
+        - 1.8.6
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director

@@ -287,7 +287,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!1 &6246797649955350291
+--- !u!1 &5239193786075610841
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -295,38 +295,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6246797649955350290}
-  - component: {fileID: 118552481406684106}
+  - component: {fileID: 967217443800776271}
+  - component: {fileID: 8170138139690728761}
   m_Layer: 0
-  m_Name: Gun
+  m_Name: gunEnd
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6246797649955350290
+--- !u!4 &967217443800776271
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6246797649955350291}
+  m_GameObject: {fileID: 5239193786075610841}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.419, y: 1.1, z: 0.423}
+  m_LocalPosition: {x: 0.099, y: 0, z: 0.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6246797650837087717}
-  m_Father: {fileID: 6246797651336079828}
+  m_Children: []
+  m_Father: {fileID: 6246797649955350290}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!120 &118552481406684106
+--- !u!120 &8170138139690728761
 LineRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6246797649955350291}
-  m_Enabled: 1
+  m_GameObject: {fileID: 5239193786075610841}
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -338,7 +337,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 69756c3056b218544a0bc62a9edde21d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -360,8 +359,8 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: 0.49380964, y: 1.1024144, z: 0.96889806}
-  - {x: 0, y: 1.1328447, z: 1.5408392}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -370,7 +369,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.057291668
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -417,6 +416,38 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!1 &6246797649955350291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6246797649955350290}
+  m_Layer: 0
+  m_Name: Gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6246797649955350290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6246797649955350291}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.419, y: 1.1, z: 0.423}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6246797650837087717}
+  - {fileID: 967217443800776271}
+  m_Father: {fileID: 6246797651336079828}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6246797650837087722
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +728,6 @@ MonoBehaviour:
   - {fileID: 6246797651336079831}
   - {fileID: 7044853277526425504}
   - {fileID: 6246797651336079825}
-  - {fileID: 0}
   <ParentNetworkObject>k__BackingField: {fileID: 0}
   <ChildNetworkObjects>k__BackingField: []
   SerializedTransformProperties:
@@ -727,7 +757,7 @@ MonoBehaviour:
   fireRate: 0
   weaponRange: 0
   hitForce: 0
-  gunEnd: {fileID: 0}
+  gunEnd: {fileID: 967217443800776271}
 --- !u!114 &6246797651336079825
 MonoBehaviour:
   m_ObjectHideFlags: 0
