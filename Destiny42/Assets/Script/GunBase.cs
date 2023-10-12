@@ -52,33 +52,33 @@ public class GunBase : NetworkBehaviour
     void Update()
 
     {
-
-        if (Input.GetButtonDown("Fire1") && Time.time > nextFire)
+        if (base.IsOwner)
         {
-            nextFire = Time.time + fireRate;
+            if (Input.GetButtonDown("Fire1") && Time.time > nextFire)
+            {
+                nextFire = Time.time + fireRate;
 
-            Debug.Log("Bang!");
+                Debug.Log("Bang!");
             
 
-           StartCoroutine(ShotEffect());
+                StartCoroutine(ShotEffect());
 
-            Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0.0f));
+                Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0.0f));
 
-            RaycastHit hit;
+                RaycastHit hit;
 
-            laserLine.SetPosition(0, gunEnd.position);
+                laserLine.SetPosition(0, gunEnd.position);
 
-            if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit, weaponRange))
-            {
-                laserLine.SetPosition(1, hit.point);
-            }
-            else
-            {
-                laserLine.SetPosition(1, rayOrigin + (fpsCam.transform.forward * weaponRange));
+                if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit, weaponRange))
+                {
+                    laserLine.SetPosition(1, hit.point);
+                }
+                else
+                {
+                    laserLine.SetPosition(1, rayOrigin + (fpsCam.transform.forward * weaponRange));
+                }
             }
         }
-
-
     }
 
     private IEnumerator ShotEffect()

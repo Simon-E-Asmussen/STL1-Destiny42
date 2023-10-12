@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - gunEnd
+  - CharacterSelect
   layers:
   - Default
   - TransparentFX
