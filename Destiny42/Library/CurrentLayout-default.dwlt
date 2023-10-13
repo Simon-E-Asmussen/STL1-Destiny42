@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
+  m_MinSize: {x: 676, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 123
+  controlID: 769
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1400
     height: 947
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 401, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 745
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1400
     height: 620
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 401, y: 221}
+  m_MaxSize: {x: 8001, y: 4021}
   vertical: 0
-  controlID: 65
+  controlID: 746
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,8 +219,8 @@ MonoBehaviour:
     y: 0
     width: 361
     height: 620
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -404,9 +404,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 507.89297, y: 358.2424, z: 8.97937}
+    m_Target: {x: 13.507997, y: 20.237488, z: 51.41564}
     speed: 2
-    m_Value: {x: 483.43378, y: 295.7756, z: 66.53798}
+    m_Value: {x: 13.507997, y: 20.237488, z: 51.41564}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -453,20 +453,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06475754, y: -0.01497295, z: 0.00095901627, w: 0.99780315}
+    m_Target: {x: 0.15293072, y: 0.6757911, z: -0.14638512, w: 0.70606333}
     speed: 2
-    m_Value: {x: -0.0041826908, y: -0.05846934, z: -0.00025557264, w: 0.9982805}
+    m_Value: {x: 0.15292801, y: 0.6757791, z: -0.14638253, w: 0.7060508}
   m_Size:
-    m_Target: 314.05505
+    m_Target: 4.1838245
     speed: 2
-    m_Value: 163.53471
+    m_Value: 4.1838245
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.0005
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.06047
+    m_SpeedNormalized: 0.53
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -514,21 +514,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 649dfdffe69efdff3eb1fdffaeb6fdffd0b6fdff24b8fdff90bbfdffb2bbfdff06bdfdff24cefdff46cefdff9acffdfff4d1fdff16d2fdff02dbfdff24dbfdff78dcfdff4cdffdff6edffdffdce5fdfffee5fdff52e7fdffb0ecfdffd2ecfdff26eefdff5af2fdff7cf2fdffd0f3fdff7af3ffffaaf4ffff54fbffff5efbffff6a6c0000fc6d0000501a0100
+      m_ExpandedIDs: eeb0ffff10b1ffff6ab2ffffa6b3ffff7abaffff9cbafffff6bbffffa2bdffffb0c9ffffd2c9ffff28cbffff84ebffffeeebffffceeefffff0eeffff42f0ffffa8f4ffffcaf4ffff1cf6ffff6efbfffff4ffffffb64400001e6c0000366e00004a6e0000da6e0000dcb60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: SpawnPoint1
+        m_OriginalName: SpawnPoint1
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 27790
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -576,22 +576,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Script
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\mathi\Desktop\SDU\7. Semester\Social Technology Lab\Git\STL1-Destiny42\Destiny42
+  m_LastProjectPath: C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss
+    Game\STL1-Destiny42\Destiny42
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa500000
-    m_LastClickedID: 20650
-    m_ExpandedIDs: 00000000dc48000000ca9a3b
+    m_SelectedIDs: 08490000
+    m_LastClickedID: 18696
+    m_ExpandedIDs: 0000000008490000907100009271000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc480000
+    m_ExpandedIDs: 000000000849000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

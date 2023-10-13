@@ -1,9 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Gamemanager
+    - CharacterSelection
     - GunBase
+    - Healthbar
     - Player
+    - SpawnPoints
     FishNet.Demos.dll:
     - FishNet.Component.ColliderRollback.Demo.Aim
     - FishNet.Component.ColliderRollback.Demo.Fire
@@ -34,12 +36,6 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -51,6 +47,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -91,71 +88,77 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1442}
     - Class: 114
-      Script: {instanceID: 1444}
+      Script: {instanceID: 1504}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1706}
     - Class: 114
-      Script: {instanceID: 1772}
+      Script: {instanceID: 1736}
     - Class: 114
-      Script: {instanceID: 2188}
+      Script: {instanceID: 2152}
     - Class: 114
-      Script: {instanceID: 2244}
+      Script: {instanceID: 2208}
     - Class: 114
-      Script: {instanceID: 2392}
+      Script: {instanceID: 2356}
     - Class: 114
-      Script: {instanceID: 2646}
+      Script: {instanceID: 2610}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2702}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 3114}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 3194}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3082}
     - Class: 114
-      Script: {instanceID: 3282}
+      Script: {instanceID: 3162}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3250}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 3344}
     - Class: 114
-      Script: {instanceID: 3406}
+      Script: {instanceID: 3356}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3358}
     - Class: 114
-      Script: {instanceID: 3674}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3700}
+      Script: {instanceID: 3382}
     - Class: 114
-      Script: {instanceID: 3710}
+      Script: {instanceID: 3642}
     - Class: 114
-      Script: {instanceID: 3718}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 3790}
+      Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 4386}
+      Script: {instanceID: 3686}
     - Class: 114
-      Script: {instanceID: 4500}
+      Script: {instanceID: 3758}
     - Class: 114
-      Script: {instanceID: 4650}
+      Script: {instanceID: 4354}
     - Class: 114
-      Script: {instanceID: 5036}
+      Script: {instanceID: 4468}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5004}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5206}
     - Class: 114
-      Script: {instanceID: 5434}
+      Script: {instanceID: 5380}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 5402}
     - Class: 114
-      Script: {instanceID: 5574}
+      Script: {instanceID: 5478}
+    - Class: 114
+      Script: {instanceID: 5542}
+    - Class: 114
+      Script: {instanceID: 29844}
+    - Class: 114
+      Script: {instanceID: 42028}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -197,12 +200,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: 3a9364daafe1669736c0684ac2f253c7
@@ -469,6 +466,12 @@ ScriptsOnlyBuild:
     className: ProjectileSpawner
   - hash:
       serializedVersion: 2
+      Hash: 8bada915834c1e84c08373d065bb1f52
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Healthbar
+  - hash:
+      serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -533,6 +536,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1217,8 +1226,20 @@ ScriptsOnlyBuild:
     assemblyName: FishNet.Runtime.dll
     namespaceName: FishNet.Transporting
     className: NetworkReaderLoop
+  - hash:
+      serializedVersion: 2
+      Hash: 6b5a7a3653452d02e266c93261994a40
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnPoints
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/mathi/Desktop/SDU/7. Semester/Social Technology Lab/Online
-    Build/Destiny42.exe
+  playerPath: C:/Users/mathi/Documents/SDU/7. Semester/Social Technology Lab/Boss
+    Game/Ny build/Destiny42.exe

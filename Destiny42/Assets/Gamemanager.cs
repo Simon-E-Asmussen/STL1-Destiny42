@@ -10,7 +10,7 @@ public class Gamemanager : NetworkBehaviour
     private PlayerSpawner _playerSpawner;
     private GameObject CharacterSelect;
 
-    public bool IsBoss = false;
+    public bool IsBoss;
     public NetworkObject player;
     public NetworkObject boss;
 
@@ -23,34 +23,11 @@ public class Gamemanager : NetworkBehaviour
         CharacterSelect = GameObject.FindWithTag("CharacterSelect");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        /*
-        if (IsClient)
-        {
-            SelectPlayerType();
-        }
-        */
-    }
-
-    private void SelectPlayerType()
-    {
-        if (IsBoss)
-        {
-            
-        }
-        else
-        {
-            
-        }
-    }
-
     // Runs when boss button is clicked
     public void SetBossTrue()
     {
         IsBoss = true; //Sets bool to true which change the Main Camera Height
-        _playerSpawner.ChangePlayerPrefab(boss); //Sets the spawnable player prefab to the boss prefab
+        //_playerSpawner.ChangePlayerPrefab(boss); //Sets the spawnable player prefab to the boss prefab
         CharacterSelect.SetActive(false); //Removes the character select textbox
     }
     
@@ -58,7 +35,7 @@ public class Gamemanager : NetworkBehaviour
     public void SetBossFalse()
     {
         IsBoss = false; //Sets bool to true which change the Main Camera Height
-        _playerSpawner.ChangePlayerPrefab(player); //Sets the spawnable player prefab to the player prefab
+        //_playerSpawner.ChangePlayerPrefab(player); //Sets the spawnable player prefab to the player prefab
         CharacterSelect.SetActive(false); //Removes the character select textbox
     }
 }
