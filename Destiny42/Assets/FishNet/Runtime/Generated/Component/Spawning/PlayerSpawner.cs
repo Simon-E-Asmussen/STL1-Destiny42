@@ -64,11 +64,6 @@ namespace FishNet.Component.Spawning
             if (_networkManager != null)
                 _networkManager.SceneManager.OnClientLoadedStartScenes -= SceneManager_OnClientLoadedStartScenes;
         }
-
-        public void ChangePlayerPrefab(NetworkObject networkObject)
-        {
-            _playerPrefab = networkObject;
-        }
  
 
         /// <summary>
