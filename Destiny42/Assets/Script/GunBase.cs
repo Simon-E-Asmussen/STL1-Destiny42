@@ -45,22 +45,17 @@ public class GunBase : NetworkBehaviour
         gunDamage = 1;
         fireRate = 0.25f;
         weaponRange = 50f;
-        hitForce = 2f;
+        hitForce = 100f;
 
     }
 
     void Update()
-
     {
-
         if (Input.GetButtonDown("Fire1") && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
 
-            Debug.Log("Bang!");
-            
-
-           StartCoroutine(ShotEffect());
+            StartCoroutine(ShotEffect());
 
             Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0.0f));
 
@@ -71,19 +66,27 @@ public class GunBase : NetworkBehaviour
             if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit, weaponRange))
             {
                 laserLine.SetPosition(1, hit.point);
+                ShootableTarget health = hit.collider.GetComponent<ShootableTarget>();
+
+                if (health != null)
+                {
+                    health.Damage(gunDamage);
+                }
+
+                if (hit.rigidbody != null)
+                {
+                    hit.rigidbody.AddForce(-hit.normal * hitForce);
+                }
             }
             else
             {
                 laserLine.SetPosition(1, rayOrigin + (fpsCam.transform.forward * weaponRange));
             }
         }
-
-
     }
-
     private IEnumerator ShotEffect()
     {
-       // gunAudio.Play();
+        // gunAudio.Play();
 
         laserLine.enabled = true;
 
@@ -92,5 +95,10 @@ public class GunBase : NetworkBehaviour
         laserLine.enabled = false;
     }
 
+
 }
+
+
+
+  
 

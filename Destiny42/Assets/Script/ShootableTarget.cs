@@ -33,4 +33,4 @@ public class ShootableTarget : NetworkBehaviour
     }
 
 }
-}
+

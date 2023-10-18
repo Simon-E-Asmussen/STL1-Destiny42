@@ -24,10 +24,10 @@ public class Gamemanager : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-        SelectPlayerType();
+      //  SelectPlayerType();
     }
 
-    private void SelectPlayerType()
+   /* private void SelectPlayerType()
     {
         if (IsBoss)
         {
@@ -37,5 +37,5 @@ public class Gamemanager : NetworkBehaviour
         {
             _playerSpawner.ChangePlayerPrefab(player);
         }
-    }
+    }*/
 }
