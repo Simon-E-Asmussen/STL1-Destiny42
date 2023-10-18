@@ -11,6 +11,8 @@ public class CharacterSelection : NetworkBehaviour
     [SerializeField] private GameObject characterSelectionPanel;
     [SerializeField] private GameObject canvas;
 
+    public bool isBoss;
+
     public override void OnStartClient()
     {
         base.OnStartClient();
@@ -24,12 +26,14 @@ public class CharacterSelection : NetworkBehaviour
     {
         characterSelectionPanel.SetActive(false);
         Spawn(0, LocalConnection);
+        isBoss = false;
     }
     
     public void SpawnBoss()
     {
         characterSelectionPanel.SetActive(false);
         Spawn(1, LocalConnection);
+        isBoss = true;
     }
 
     [ServerRpc(RequireOwnership = false)]

@@ -29,18 +29,16 @@ public class Player : NetworkBehaviour
     private float cameraYOffset;
     private Camera playerCamera2;
 
-    private GameObject GameManager;
-    private Gamemanager _gamemanager;
-    
+    private CharacterSelection _characterSelection;
+
     public override void OnStartClient()
     {
-        GameManager = GameObject.Find("GameManager");
-        _gamemanager = GameManager.GetComponent<Gamemanager>();
-        
+        _characterSelection = GameObject.Find("Client(Clone)").GetComponent<CharacterSelection>();
         base.OnStartClient();
         if (base.IsOwner)
         {
-            ChangeYOffset(_gamemanager.IsBoss);
+            Debug.Log("Emotional Damage!");
+            ChangeYOffset(_characterSelection.isBoss);
             playerCamera2 = Camera.main;
             playerCamera2.transform.position = new Vector3(transform.position.x, transform.position.y + cameraYOffset,
                 transform.position.z);
