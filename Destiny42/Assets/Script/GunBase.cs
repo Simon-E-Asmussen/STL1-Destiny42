@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using FishNet.Connection;
 using FishNet.Object;
@@ -57,45 +58,45 @@ public class GunBase : NetworkBehaviour
             {
                 nextFire = Time.time + fireRate;
 
-            StartCoroutine(ShotEffect());
+                StartCoroutine(ShotEffect());
 
-            Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0.0f));
+                Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0.0f));
 
                 RaycastHit hit;
 
                 laserLine.SetPosition(0, gunEnd.position);
 
-            if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit, weaponRange))
+                if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit, weaponRange))
+                {
+                    laserLine.SetPosition(1, hit.point);
+                    ShootableTarget health = hit.collider.GetComponent<ShootableTarget>();
+
+                    if (health != null)
+                    {
+                        health.Damage(gunDamage);
+                    }
+
+                    if (hit.rigidbody != null)
+                    {
+                        hit.rigidbody.AddForce(-hit.normal * hitForce);
+                    }
+                }
+            }
+
+            IEnumerator ShotEffect()
             {
-                laserLine.SetPosition(1, hit.point);
-                ShootableTarget health = hit.collider.GetComponent<ShootableTarget>();
+                // gunAudio.Play();
 
-                if (health != null)
-                {
-                    health.Damage(gunDamage);
-                }
+                laserLine.enabled = true;
 
-                if (hit.rigidbody != null)
-                {
-                    hit.rigidbody.AddForce(-hit.normal * hitForce);
-                }
+                yield return shotDuration;
+
+                laserLine.enabled = false;
             }
         }
     }
-    private IEnumerator ShotEffect()
-    {
-        // gunAudio.Play();
-
-        laserLine.enabled = true;
-
-        yield return shotDuration;
-
-        laserLine.enabled = false;
-    }
-
-
 }
-
+    
 
 
   
