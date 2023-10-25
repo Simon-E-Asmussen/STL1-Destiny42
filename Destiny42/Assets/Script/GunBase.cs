@@ -46,7 +46,7 @@ public class GunBase : NetworkBehaviour
         gunDamage = 1;
         fireRate = 0.25f;
         weaponRange = 50f;
-        hitForce = 100f;
+        hitForce = 500f;
 
     }
 
