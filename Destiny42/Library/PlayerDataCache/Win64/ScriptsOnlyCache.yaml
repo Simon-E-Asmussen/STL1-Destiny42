@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - GameOver
     - GunBase
     - Healthbar
+    - PauseMenu
     - Player
     - ShootableTarget
     - SpawnPoints
@@ -38,6 +39,12 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -71,6 +78,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
@@ -92,79 +101,91 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1444}
     - Class: 114
-      Script: {instanceID: 1506}
+      Script: {instanceID: 1518}
     - Class: 114
-      Script: {instanceID: 1708}
+      Script: {instanceID: 1720}
     - Class: 114
-      Script: {instanceID: 1738}
+      Script: {instanceID: 1750}
     - Class: 114
-      Script: {instanceID: 2154}
+      Script: {instanceID: 1842}
+    - Class: 114
+      Script: {instanceID: 2166}
     - Class: 114
       Script: {instanceID: 2210}
     - Class: 114
-      Script: {instanceID: 2358}
+      Script: {instanceID: 2222}
     - Class: 114
-      Script: {instanceID: 2612}
+      Script: {instanceID: 2370}
     - Class: 114
-      Script: {instanceID: 2704}
+      Script: {instanceID: 2562}
     - Class: 114
-      Script: {instanceID: 2768}
+      Script: {instanceID: 2626}
     - Class: 114
-      Script: {instanceID: 2774}
+      Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2962}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3042}
+      Script: {instanceID: 2788}
     - Class: 114
-      Script: {instanceID: 3084}
+      Script: {instanceID: 2828}
     - Class: 114
-      Script: {instanceID: 3164}
+      Script: {instanceID: 2976}
+    - Class: 114
+      Script: {instanceID: 3056}
+    - Class: 114
+      Script: {instanceID: 3098}
     - Class: 114
       Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3252}
+      Script: {instanceID: 3192}
     - Class: 114
-      Script: {instanceID: 3346}
-    - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3266}
     - Class: 114
       Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3384}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3432}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 3646}
+      Script: {instanceID: 3398}
     - Class: 114
-      Script: {instanceID: 3672}
+      Script: {instanceID: 3446}
     - Class: 114
-      Script: {instanceID: 3682}
+      Script: {instanceID: 3660}
     - Class: 114
-      Script: {instanceID: 3690}
+      Script: {instanceID: 3686}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3696}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 3704}
     - Class: 114
-      Script: {instanceID: 4472}
+      Script: {instanceID: 3776}
     - Class: 114
-      Script: {instanceID: 5008}
+      Script: {instanceID: 4372}
     - Class: 114
-      Script: {instanceID: 5210}
+      Script: {instanceID: 4486}
     - Class: 114
-      Script: {instanceID: 5384}
+      Script: {instanceID: 4718}
     - Class: 114
-      Script: {instanceID: 5406}
+      Script: {instanceID: 5022}
     - Class: 114
-      Script: {instanceID: 5482}
+      Script: {instanceID: 5070}
     - Class: 114
-      Script: {instanceID: 5546}
+      Script: {instanceID: 5224}
     - Class: 114
-      Script: {instanceID: 5618}
+      Script: {instanceID: 5398}
     - Class: 114
-      Script: {instanceID: 31742}
+      Script: {instanceID: 5420}
+    - Class: 114
+      Script: {instanceID: 5496}
+    - Class: 114
+      Script: {instanceID: 5560}
+    - Class: 114
+      Script: {instanceID: 5632}
+    - Class: 114
+      Script: {instanceID: 43826}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -440,6 +461,12 @@ ScriptsOnlyBuild:
     assemblyName: FishNet.Runtime.dll
     namespaceName: FishNet.Managing.Transporting
     className: TransportManager
+  - hash:
+      serializedVersion: 2
+      Hash: 572b1f5e300fd78dcd7bae5d054ad3ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameOver
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -808,7 +835,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 8438f74f5757391db6ddb5f629267eab
+      Hash: 3d796f9f5a0cebfdc17bccd856423bbd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1252,11 +1279,12 @@ ScriptsOnlyBuild:
     className: CharacterSelection
   - hash:
       serializedVersion: 2
-      Hash: b29b0eed870152f4da350a87360afebd
+      Hash: b5f3f77ccd870f79d0a8f44b079bd0b0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GameOver
+    className: PauseMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/mathi/Desktop/SDU/7. Semester/Social Technology Lab/CharacterSelectTest/Destiny42.exe
+  playerPath: C:/Users/mathi/Documents/SDU/7. Semester/Social Technology Lab/Boss
+    Game/GameOverBuild/Destiny42.exe

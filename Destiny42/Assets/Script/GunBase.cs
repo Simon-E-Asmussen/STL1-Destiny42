@@ -66,7 +66,7 @@ public class GunBase : NetworkBehaviour
 
                 laserLine.SetPosition(0, gunEnd.position);
 
-                if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit, weaponRange))
+                if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit))
                 {
                     laserLine.SetPosition(1, hit.point);
                     ShootableTarget health = hit.collider.GetComponent<ShootableTarget>();
@@ -79,6 +79,16 @@ public class GunBase : NetworkBehaviour
                     if (hit.rigidbody != null)
                     {
                         hit.rigidbody.AddForce(-hit.normal * hitForce);
+                    }
+                    
+                    Player opponent = hit.collider.GetComponent<Player>();
+                    Debug.Log(opponent);
+
+                    // Deal damage to opponent
+                    if (opponent != null)
+                    {
+                        Debug.Log("Took Damage!");
+                        opponent.GotHit(10f);
                     }
                 }
             }

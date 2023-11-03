@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using FishNet.Connection;
 using FishNet.Object;
@@ -29,7 +30,14 @@ public class Player : NetworkBehaviour
     private float cameraYOffset;
     private Camera playerCamera2;
 
+    private GameObject healthBar;
+    [SerializeField] private bool isDead = false;
+    private GameObject pauseMenu;
+
     private CharacterSelection _characterSelection;
+
+    public GameObject healthbar;
+    public GameObject GameManager;
 
     public override void OnStartClient()
     {
@@ -40,8 +48,11 @@ public class Player : NetworkBehaviour
             Debug.Log("Emotional Damage!");
             ChangeYOffset(_characterSelection.isBoss);
             playerCamera2 = Camera.main;
-            playerCamera2.transform.position = new Vector3(transform.position.x, transform.position.y + cameraYOffset,
-                transform.position.z);
+            if (!isDead && !GameObject.Find("GameManager").GetComponent<PauseMenu>().isPaused)
+            {
+                playerCamera2.transform.position = new Vector3(transform.position.x, transform.position.y + cameraYOffset,
+                    transform.position.z);
+            }
             playerCamera2.transform.SetParent(transform);
         }
         else
@@ -64,11 +75,17 @@ public class Player : NetworkBehaviour
 
     void Start()
     {
+        isDead = false;
         characterController = GetComponent<CharacterController>();
+        healthBar = GameObject.Find("Health Bar");
+        
 
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        
+        healthbar = GameObject.Find("Health Bar");
+        GameManager = GameObject.Find("GameManager");
     }
 
     void Update()
@@ -103,6 +120,9 @@ public class Player : NetworkBehaviour
         // Move the controller
         characterController.Move(moveDirection * Time.deltaTime);
 
+        // Check if the player is either dead or is in the pause menu
+        MenuCheck();
+
         // Player and Camera rotation
         if (canMove && playerCamera2 != null)
         {
@@ -111,10 +131,51 @@ public class Player : NetworkBehaviour
             playerCamera2.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
+        
+        // Calls the death method when health reaches 0
+        if (healthBar.GetComponent<Healthbar>().health <= 0)
+        {
+            Death();
+        }
 
         if(Input.GetButton("Fire1") && canMove)
         {
            // This.Gun.shoot();
         }
+    }
+    
+    public void MenuCheck()
+    {
+        if (!isDead && !GameObject.Find("GameManager").GetComponent<PauseMenu>().isPaused)
+        {
+            canMove = true;
+        }
+        else
+        {
+            canMove = false;
+        }
+    }
+
+    // Disable mouse cursor
+    public void Death()
+    {
+        isDead = true;
+        canMove = false;
+        GameManager.GetComponent<GameOver>().PlayerReference(gameObject);
+        gameObject.SetActive(false);
+    }
+
+    public void Alive(bool Respawn)
+    {
+        if (Respawn)
+        {
+            isDead = false;
+            canMove = true;
+        }
+    }
+
+    public void GotHit(float damage)
+    {
+        healthbar.GetComponent<Healthbar>().TakeDamage(damage);
     }
 }
