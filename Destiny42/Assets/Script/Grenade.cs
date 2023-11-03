@@ -8,6 +8,8 @@ public class Grenade : MonoBehaviour
     private bool primed;
     private float abilityRange;
     GameObject indicator;
+    GameObject fireball;
+    bool active = false;
 
     // Start is called before the first frame update
     void Start()
@@ -16,30 +18,39 @@ public class Grenade : MonoBehaviour
         primed = false;
         abilityRange = 30f;
         UnityEngine.Object indPrefab = Resources.Load("Prefabs/GrenadeIndicator");
+        UnityEngine.Object ballPrefab = Resources.Load("Prefabs/FireBallShot");
         indicator = (GameObject)indPrefab;
+        fireball = (GameObject)ballPrefab;
     }
 
     // Update is called once per frame
     void Update()
     {
         //Checks for ability activation
-        if (Input.GetButtonDown("Fire2"))
+        if (!active) {
+            if (Input.GetButtonDown("Fire2"))
+            {
+                active = true;
+
+            } }
+
+        if (active)
         {
             NoobLaunch();
-
         }
     }
 
     void NoobLaunch()
     {
-        StartCoroutine(wait());
-        Debug.Log("Click");
-        //Sets parameter for ability to load 3D indicator
-        primed = true;
-        GameObject.Instantiate(indicator, Vector3.zero, Quaternion.identity);
-        
+        if (!primed) {
+            StartCoroutine(wait());
+            Debug.Log("Click");
+            //Sets parameter for ability to load 3D indicator
+            primed = true;
+            GameObject.Instantiate(indicator, Vector3.zero, Quaternion.identity, this.transform);
+        }
         //Insert public bool on owner playerscript that blocks gunfire
-        while (primed == true)
+        if (primed)
         {
             Debug.Log("Entered Loop");
 
@@ -51,8 +62,8 @@ public class Grenade : MonoBehaviour
             if (Physics.Raycast(rayOrigin, fpsCam.transform.forward, out hit, abilityRange))
             {
                 Debug.Log("Am doing");
-                GameObject six = GameObject.Find("GrenadeIndicator(Clone)");
-                six.GetComponent<reposIndicator>().ReposIndicator(hit.transform);
+                
+                GetComponentInChildren<reposIndicator>().ReposIndicator(hit.point);
                 Debug.Log("Did do");
             }
 
@@ -60,22 +71,29 @@ public class Grenade : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 //Activates ability, sending hit transform to network object and instantiates
-
+                Debug.Log("Went her");
                 //Deactivates indicators
+                GameObject.Instantiate(fireball, new Vector3(this.transform.position.x + 1, this.transform.position.y, this.transform.position.z + 1), Quaternion.identity);
+                GetComponentInChildren<reposIndicator>().SweetRelease();
+                Debug.Log("Activate and Kill");
+                GameObject.Find("FireBallShot(clone)").GetComponent<FIREBALL>().SetTarget(hit.point);
                 primed = false;
+                active = false;
+
                 //Deactivate fire blocker bool
             }
-            else if (Input.GetButtonDown("Cancel") || Input.GetButtonDown("Fire2"))
+            else if (Input.GetButtonDown("Cancel"))
             {
                 Debug.Log("Exiting");
                 //Registers deactivation of ability and returns to standard state
 
                 //Deactivate fireblocker bool
 
-                GameObject six = GameObject.Find("GrenadeIndicator(Clone)");
-                six.GetComponent<reposIndicator>().SweetRelease();
+                
+                GetComponentInChildren<reposIndicator>().SweetRelease();
                 Debug.Log("kill");
                 primed = false;
+                active = false;
             }
         }
     }

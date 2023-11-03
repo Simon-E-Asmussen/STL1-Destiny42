@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class reposIndicator : MonoBehaviour
 {
+
+    public GameObject HANS;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,13 +18,14 @@ public class reposIndicator : MonoBehaviour
         
     }
 
-    public void ReposIndicator(Transform cringeLordOverturn)
+    public void ReposIndicator(Vector3 cringeLordOverturn)
     {
-        this.transform.position = cringeLordOverturn.position;
+        this.transform.position = cringeLordOverturn;
     }
 
     public void SweetRelease()
     {
-        GameObject.Destroy(this);
+        Debug.Log("Kill this indicator!");
+        Destroy(HANS);
     }
 }
