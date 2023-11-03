@@ -2,9 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CharacterSelection
+    - GameOver
     - GunBase
     - Healthbar
     - Player
+    - ShootableTarget
     - SpawnPoints
     FishNet.Demos.dll:
     - FishNet.Component.ColliderRollback.Demo.Aim
@@ -90,75 +92,79 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1444}
     - Class: 114
-      Script: {instanceID: 1520}
+      Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 1722}
+      Script: {instanceID: 1708}
     - Class: 114
-      Script: {instanceID: 1752}
+      Script: {instanceID: 1738}
     - Class: 114
-      Script: {instanceID: 2168}
+      Script: {instanceID: 2154}
     - Class: 114
-      Script: {instanceID: 2224}
+      Script: {instanceID: 2210}
     - Class: 114
-      Script: {instanceID: 2372}
+      Script: {instanceID: 2358}
     - Class: 114
-      Script: {instanceID: 2626}
+      Script: {instanceID: 2612}
     - Class: 114
-      Script: {instanceID: 2718}
+      Script: {instanceID: 2704}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2962}
     - Class: 114
-      Script: {instanceID: 3056}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 3098}
+      Script: {instanceID: 3084}
+    - Class: 114
+      Script: {instanceID: 3164}
     - Class: 114
       Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 3266}
+      Script: {instanceID: 3346}
+    - Class: 114
+      Script: {instanceID: 3358}
     - Class: 114
       Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3372}
+      Script: {instanceID: 3376}
     - Class: 114
-      Script: {instanceID: 3374}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 3432}
     - Class: 114
-      Script: {instanceID: 3398}
+      Script: {instanceID: 3646}
     - Class: 114
-      Script: {instanceID: 3658}
+      Script: {instanceID: 3672}
     - Class: 114
-      Script: {instanceID: 3684}
+      Script: {instanceID: 3682}
     - Class: 114
-      Script: {instanceID: 3694}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 3702}
+      Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 3774}
+      Script: {instanceID: 4358}
     - Class: 114
-      Script: {instanceID: 4370}
+      Script: {instanceID: 4472}
     - Class: 114
-      Script: {instanceID: 4484}
+      Script: {instanceID: 5008}
     - Class: 114
-      Script: {instanceID: 5020}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 5222}
+      Script: {instanceID: 5384}
     - Class: 114
-      Script: {instanceID: 5396}
+      Script: {instanceID: 5406}
     - Class: 114
-      Script: {instanceID: 5418}
+      Script: {instanceID: 5482}
     - Class: 114
-      Script: {instanceID: 5494}
+      Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 5558}
+      Script: {instanceID: 5618}
     - Class: 114
-      Script: {instanceID: 5630}
+      Script: {instanceID: 31742}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -706,6 +712,12 @@ ScriptsOnlyBuild:
     className: ObserverManager
   - hash:
       serializedVersion: 2
+      Hash: 5f7ce100eae7619549bd545b5135c77f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShootableTarget
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1238,6 +1250,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterSelection
+  - hash:
+      serializedVersion: 2
+      Hash: b29b0eed870152f4da350a87360afebd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameOver
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
