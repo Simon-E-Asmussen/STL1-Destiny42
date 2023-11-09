@@ -17,7 +17,7 @@ public class Grenade : MonoBehaviour
     {
         fpsCam = Camera.main;
         primed = false;
-        abilityRange = 30f;
+        abilityRange = 10000f;
         UnityEngine.Object indPrefab = Resources.Load("Prefabs/GrenadeIndicator");
      
         indicator = (GameObject)indPrefab;
@@ -74,12 +74,7 @@ public class Grenade : MonoBehaviour
                 //Activates ability, sending hit transform to network object and instantiates
                 Debug.Log("Went her");
                 //Deactivates indicators
-                GameObject clone = GameObject.Instantiate(fireball, new Vector3(this.transform.position.x + 1, this.transform.position.y, this.transform.position.z + 1), Quaternion.identity);
-                
-                Debug.Log("Activate and Kill");
-                clone.SetActive(true);
-                clone.GetComponent<FIREBALL>().SetTarget(hit.point);
-                GetComponentInChildren<reposIndicator>().SweetRelease();
+                GetComponentInParent<Player>().FireballTime(fireball, this.gameObject.transform, GetComponentInParent<Player>(), hit.point);
 
                 primed = false;
                 active = false;

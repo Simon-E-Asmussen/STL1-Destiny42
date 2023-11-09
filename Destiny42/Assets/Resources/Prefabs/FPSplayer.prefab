@@ -702,6 +702,7 @@ MonoBehaviour:
   gravity: 20
   lookSpeed: 2
   lookXLimit: 45
+  spawnedObject: {fileID: 5620063746536472368, guid: 70b4937f96cb6754b8a172c8e16ec0d9, type: 3}
   canMove: 1
   cameraYOffset: 1.5
 --- !u!114 &6246797651336079824
@@ -717,7 +718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NetworkObserver: {fileID: 0}
-  <PrefabId>k__BackingField: 12
+  <PrefabId>k__BackingField: 14
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 0
   <SceneId>k__BackingField: 0

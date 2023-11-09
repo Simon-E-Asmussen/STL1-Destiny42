@@ -25,6 +25,7 @@ public class FIREBALL : NetworkBehaviour
     {
         Debug.LogWarning("I started");
         col = GetComponent<SphereCollider>();
+        this.GetComponent<ParticleSystem>().Play();
         this.gameObject.SetActive(true);
     }
 

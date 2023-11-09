@@ -17,6 +17,10 @@ public class Player : NetworkBehaviour
     //public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
+    public GameObject spawnedObject;
+    public GameObject spawned;
+
+    bool grenadeThrown = false;
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
@@ -73,6 +77,11 @@ public class Player : NetworkBehaviour
 
     void Update()
     {
+
+        if (grenadeThrown)
+        {
+            spawned.SetActive(true);
+        }
         // We are grounded, so recalculate move direction based on axes
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
@@ -116,5 +125,25 @@ public class Player : NetworkBehaviour
         {
            // This.Gun.shoot();
         }
+    }
+
+
+    [ServerRpc]
+
+    public void FireballTime(GameObject fireball, Transform player, Player script, Vector3 hit)
+    {
+        spawned =  GameObject.Instantiate(fireball, player.position + player.forward, Quaternion.identity);
+
+        Debug.LogWarning("Activate and Kill");
+        spawned.SetActive(true);
+        spawned.GetComponent<FIREBALL>().SetTarget(hit);
+        GetComponentInChildren<reposIndicator>().SweetRelease();
+        grenadeThrown = true;
+    }
+
+    [ObserversRpc]
+    public void SetSpawnedObject(GameObject spawned, Player script)
+    {
+        script.spawnedObject = spawned;
     }
 }
