@@ -638,6 +638,7 @@ GameObject:
   - component: {fileID: 6246797651336079824}
   - component: {fileID: 7044853277526425504}
   - component: {fileID: 6246797651336079825}
+  - component: {fileID: 4165155388625689513}
   m_Layer: 0
   m_Name: FPSplayer
   m_TagString: Untagged
@@ -806,6 +807,18 @@ MonoBehaviour:
     X: 0
     Y: 0
     Z: 0
+--- !u!114 &4165155388625689513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6246797651336079829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f239ef757f1bdb247a162a5f921be43e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7090133560095322079
 GameObject:
   m_ObjectHideFlags: 0

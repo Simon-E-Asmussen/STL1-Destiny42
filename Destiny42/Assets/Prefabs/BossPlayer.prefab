@@ -841,6 +841,7 @@ GameObject:
   - component: {fileID: 4432354895155111399}
   - component: {fileID: 5670453052893670521}
   - component: {fileID: 4031720166578362149}
+  - component: {fileID: 937139180291256176}
   m_Layer: 0
   m_Name: BossPlayer
   m_TagString: Untagged
@@ -906,6 +907,9 @@ MonoBehaviour:
   lookXLimit: 45
   canMove: 1
   cameraYOffset: 1.5
+  isDead: 0
+  healthbar: {fileID: 0}
+  GameManager: {fileID: 0}
 --- !u!114 &5670453052893670521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -985,3 +989,19 @@ MonoBehaviour:
     X: 0
     Y: 0
     Z: 0
+--- !u!114 &937139180291256176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8718022834184776601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f239ef757f1bdb247a162a5f921be43e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _componentIndexCache: 255
+  _addedNetworkObject: {fileID: 5670453052893670521}
+  _networkObjectCache: {fileID: 0}
+  health: 0
