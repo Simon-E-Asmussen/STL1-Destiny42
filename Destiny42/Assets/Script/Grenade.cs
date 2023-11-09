@@ -8,8 +8,9 @@ public class Grenade : MonoBehaviour
     private bool primed;
     private float abilityRange;
     GameObject indicator;
-    GameObject fireball;
+    public GameObject fireball;
     bool active = false;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +19,9 @@ public class Grenade : MonoBehaviour
         primed = false;
         abilityRange = 30f;
         UnityEngine.Object indPrefab = Resources.Load("Prefabs/GrenadeIndicator");
-        UnityEngine.Object ballPrefab = Resources.Load("Prefabs/FireBallShot");
+     
         indicator = (GameObject)indPrefab;
-        fireball = (GameObject)ballPrefab;
+      
     }
 
     // Update is called once per frame
@@ -73,13 +74,18 @@ public class Grenade : MonoBehaviour
                 //Activates ability, sending hit transform to network object and instantiates
                 Debug.Log("Went her");
                 //Deactivates indicators
-                GameObject.Instantiate(fireball, new Vector3(this.transform.position.x + 1, this.transform.position.y, this.transform.position.z + 1), Quaternion.identity);
-                GetComponentInChildren<reposIndicator>().SweetRelease();
+                GameObject clone = GameObject.Instantiate(fireball, new Vector3(this.transform.position.x + 1, this.transform.position.y, this.transform.position.z + 1), Quaternion.identity);
+                
                 Debug.Log("Activate and Kill");
-                GameObject.Find("FireBallShot(clone)").GetComponent<FIREBALL>().SetTarget(hit.point);
+                clone.SetActive(true);
+                clone.GetComponent<FIREBALL>().SetTarget(hit.point);
+                GetComponentInChildren<reposIndicator>().SweetRelease();
+
                 primed = false;
                 active = false;
 
+
+                Debug.Log("I passed");
                 //Deactivate fire blocker bool
             }
             else if (Input.GetButtonDown("Cancel"))
