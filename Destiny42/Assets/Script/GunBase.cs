@@ -80,7 +80,7 @@ public class GunBase : NetworkBehaviour
                     {
                         hit.rigidbody.AddForce(-hit.normal * hitForce);
                     }
-                    
+                    /*
                     Player opponent = hit.collider.GetComponent<Player>();
                     Debug.Log(opponent);
 
@@ -90,6 +90,7 @@ public class GunBase : NetworkBehaviour
                         Debug.Log("Took Damage!");
                         opponent.GotHit(10f);
                     }
+                    */
                 }
             }
 

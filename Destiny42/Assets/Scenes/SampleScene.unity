@@ -3571,7 +3571,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 852231042}
-  - component: {fileID: 852231043}
   m_Layer: 5
   m_Name: Health Bar
   m_TagString: Untagged
@@ -3600,22 +3599,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -300}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &852231043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852231041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 857422604e744594185cfad2a9ac25e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthslider: {fileID: 1032502763}
-  easeHealthSlider: {fileID: 1834104387}
-  maxHealth: 100
-  health: 0
 --- !u!1 &903420129
 GameObject:
   m_ObjectHideFlags: 0
@@ -8613,6 +8596,7 @@ GameObject:
   - component: {fileID: 1763805648}
   - component: {fileID: 1763805647}
   - component: {fileID: 1763805649}
+  - component: {fileID: 1763805650}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -8660,10 +8644,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d6d4e5428daba8498f27d2dea3eec45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _componentIndexCache: 0
+  _addedNetworkObject: {fileID: 1763805650}
+  _networkObjectCache: {fileID: 1763805650}
   player: {fileID: 0}
   GameOverMenu: {fileID: 958170497}
-  Healhbar: {fileID: 852231041}
+  Healhbar: {fileID: 1032502763}
   Health: 0
+--- !u!114 &1763805650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763805646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b716c41e9b56b4baafaf13a523ba2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NetworkObserver: {fileID: 0}
+  <PrefabId>k__BackingField: 0
+  <SpawnableCollectionId>k__BackingField: 0
+  _scenePathHash: 584410112
+  <SceneId>k__BackingField: 2510022320393611608
+  <AssetPathHash>k__BackingField: 0
+  <IsNested>k__BackingField: 0
+  <ComponentIndex>k__BackingField: 0
+  <PredictedSpawn>k__BackingField: {fileID: 0}
+  _networkBehaviours:
+  - {fileID: 1763805649}
+  <ParentNetworkObject>k__BackingField: {fileID: 0}
+  <ChildNetworkObjects>k__BackingField: []
+  SerializedTransformProperties:
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+    LocalScale: {x: 1, y: 1, z: 1}
+  _isNetworked: 1
+  _isGlobal: 0
+  _initializeOrder: 0
+  _defaultDespawnType: 0
 --- !u!1 &1772038705
 GameObject:
   m_ObjectHideFlags: 0

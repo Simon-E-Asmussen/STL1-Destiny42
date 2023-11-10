@@ -9,29 +9,27 @@ using UnityEngine.UI;
 
 public class HealthSync : NetworkBehaviour
 {
-    [SyncVar] public float health;
+    [SyncVar] public float health = 100.0f;
     private Healthbar healthbar;
     
     // variables from healthbar script
-    public Slider healthslider;
-    public Slider easeHealthSlider;
-    //public float maxHealth = 100f;
-    //public float health;
+    private Slider healthslider;
+    private Slider easeHealthSlider;
+    public float maxHealth = 100f;
     private float lerpSpeed = 0.01f;
 
     private void Start()
     {
-        healthbar = GameObject.Find("Health Bar").GetComponent<Healthbar>();
-        switch (gameObject.name)
-        {
-            case "FPSPlayer(Clone)":
-                healthbar.maxHealth = 100.0f;
-                break;
-            case "BossPlayer(Clone)":
-                healthbar.maxHealth = 1000.0f;
-                break;
-        }
-        healthbar.health = healthbar.maxHealth;
+        healthslider = GameObject.Find("Healthbar").GetComponent<Slider>();
+        easeHealthSlider = GameObject.Find("EaseHealthBar").GetComponent<Slider>();
+
+        SetHealth();
+    }
+
+    private void Update()
+    {
+        if (!base.IsOwner)
+            return;
         
         if (healthslider.value != health)
         {
@@ -48,17 +46,28 @@ public class HealthSync : NetworkBehaviour
             easeHealthSlider.value = Mathf.Lerp(easeHealthSlider.value, health, lerpSpeed);
         }
     }
-
-    private void Update()
-    {
-        if (!base.IsOwner)
-            return;
-        
-        
-    }
     
     public void TakeDamage(float damage)
     {
         health -= damage;
+    }
+
+    [ServerRpc]
+    public void SetHealth()
+    {
+        switch (gameObject.name)
+        {
+            case "FPSPlayer(Clone)":
+                maxHealth = 100.0f;
+                healthslider.maxValue = 100.0f;
+                easeHealthSlider.maxValue = 100.0f;
+                break;
+            case "BossPlayer(Clone)":
+                maxHealth = 200.0f;
+                healthslider.maxValue = 200.0f;
+                easeHealthSlider.maxValue = 200.0f;
+                break;
+        }
+        health = maxHealth;
     }
 }

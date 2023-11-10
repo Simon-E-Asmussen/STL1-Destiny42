@@ -524,7 +524,7 @@ BoxCollider:
   m_GameObject: {fileID: 6246797650837087722}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -539,7 +539,6 @@ GameObject:
   - component: {fileID: 6246797651042059585}
   - component: {fileID: 6246797651042059590}
   - component: {fileID: 6246797651042059591}
-  - component: {fileID: 9212404490342171376}
   m_Layer: 0
   m_Name: BeAn
   m_TagString: Untagged
@@ -610,20 +609,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &9212404490342171376
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6246797651042059589}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6246797651336079829
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,6 +624,8 @@ GameObject:
   - component: {fileID: 7044853277526425504}
   - component: {fileID: 6246797651336079825}
   - component: {fileID: 4165155388625689513}
+  - component: {fileID: 2850571136450565215}
+  - component: {fileID: 471505038976083347}
   m_Layer: 0
   m_Name: FPSplayer
   m_TagString: Untagged
@@ -732,6 +719,8 @@ MonoBehaviour:
   - {fileID: 6246797651336079831}
   - {fileID: 7044853277526425504}
   - {fileID: 6246797651336079825}
+  - {fileID: 4165155388625689513}
+  - {fileID: 2850571136450565215}
   <ParentNetworkObject>k__BackingField: {fileID: 0}
   <ChildNetworkObjects>k__BackingField: []
   SerializedTransformProperties:
@@ -819,6 +808,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f239ef757f1bdb247a162a5f921be43e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _componentIndexCache: 3
+  _addedNetworkObject: {fileID: 6246797651336079824}
+  _networkObjectCache: {fileID: 6246797651336079824}
+  health: 0
+  maxHealth: 100
+--- !u!114 &2850571136450565215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6246797651336079829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f9ab741ca7b1645be2ec80c9519b10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _componentIndexCache: 4
+  _addedNetworkObject: {fileID: 6246797651336079824}
+  _networkObjectCache: {fileID: 6246797651336079824}
+  damage: 10
+  timeBetweenFire: 0
+--- !u!136 &471505038976083347
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6246797651336079829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.0010533
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.0043681, z: 0}
 --- !u!1 &7090133560095322079
 GameObject:
   m_ObjectHideFlags: 0

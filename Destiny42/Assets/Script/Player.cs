@@ -5,6 +5,7 @@ using System.Security.Cryptography;
 using UnityEngine;
 using FishNet.Connection;
 using FishNet.Object;
+using UnityEngine.UI;
 
 
 [RequireComponent(typeof(CharacterController))]
@@ -30,7 +31,7 @@ public class Player : NetworkBehaviour
     private float cameraYOffset;
     private Camera playerCamera2;
 
-    private GameObject healthBar;
+    private Slider healthBar;
     [SerializeField] private bool isDead = false;
     private GameObject pauseMenu;
 
@@ -77,8 +78,7 @@ public class Player : NetworkBehaviour
     {
         isDead = false;
         characterController = GetComponent<CharacterController>();
-        healthBar = GameObject.Find("Health Bar");
-        
+        healthBar = GameObject.Find("Healthbar").GetComponent<Slider>();
 
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
@@ -133,8 +133,9 @@ public class Player : NetworkBehaviour
         }
         
         // Calls the death method when health reaches 0
-        if (healthBar.GetComponent<Healthbar>().health <= 0)
+        if (healthBar.value <= 0 && !isDead)
         {
+            Debug.Log("Deded again again");
             Death();
         }
 
@@ -156,6 +157,7 @@ public class Player : NetworkBehaviour
         }
     }
 
+    [ServerRpc (RequireOwnership = false)]
     // Disable mouse cursor
     public void Death()
     {
@@ -165,10 +167,12 @@ public class Player : NetworkBehaviour
         gameObject.SetActive(false);
     }
 
+    [ServerRpc (RequireOwnership = false)]
     public void Alive(bool Respawn)
     {
         if (Respawn)
         {
+            //this.gameObject.GetComponent<HealthSync>().SetHealth();
             isDead = false;
             canMove = true;
         }
