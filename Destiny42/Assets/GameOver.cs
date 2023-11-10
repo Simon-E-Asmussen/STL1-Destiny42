@@ -9,35 +9,37 @@ public class GameOver : NetworkBehaviour
 {
     public GameObject player;
     public GameObject GameOverMenu;
+    
     public Slider Healhbar;
-    public float Health = 1f;
+    
+    private bool deadCheck = false; // false if player isnt dead yet
 
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        Healhbar.value = 100f;
+    }
+
     void Start()
     {
-        //GameOverMenu = GameObject.Find("GameOverMenu");
         GameOverMenu.SetActive(false);
-        //Healhbar = GameObject.Find("Healthbar").GetComponent<Slider>();
-        Healhbar.value = 1f;
-        Health = 1f;
-        Debug.Log(Healhbar.value + "Is Cringe");
     }
 
     private void Update()
     {
-        // Checks the players current health
-        Health = Healhbar.value;
         // Gives the player a game over panel when health reach 0 or less
-        if (Health <= 0)
+        if (!deadCheck)
         {
-            Debug.Log(Health);
-            GameOverMenu.SetActive(true);
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            if (Healhbar.value <= 0)
+            {
+                GameOverMenu.SetActive(true);
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+                deadCheck = true;
+            }
         }
-
-        if (Health > 0)
+        if (Healhbar.value > 0)
         {
+            Debug.Log("Alive!");
             GameOverMenu.SetActive(false);
         }
     }
@@ -48,18 +50,21 @@ public class GameOver : NetworkBehaviour
         Application.Quit();
     }
     
-    // Should respawn the player after death (mainly a placeholder method atm)
+    // Respawns the player when the Respawn button is pressed
+    [ServerRpc (RequireOwnership = false)]
     public void Respawn()
     {
-        GameOverMenu.SetActive(false);
+        //GameOverMenu.SetActive(false);
         player.SetActive(true);
+        player.GetComponent<HealthSync>().health = player.GetComponent<HealthSync>().maxHealth;
+        player.GetComponent<Player>().Alive(true);
+        deadCheck = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        player.GetComponent<Player>().Alive(true);
-        player.GetComponent<HealthSync>().health = player.GetComponent<HealthSync>().maxHealth;
-        player.SetActive(true);
+        //player.SetActive(true);
     }
 
+    // Is used to get a reference to the player e.g. used in in player script to set the player variable to a specific player
     [ServerRpc (RequireOwnership = false)]
     public void PlayerReference(GameObject Player)
     {

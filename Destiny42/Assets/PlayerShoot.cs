@@ -9,7 +9,7 @@ public class PlayerShoot : NetworkBehaviour
 
     public float damage = 10.0f;
 
-    public float timeBetweenFire;
+    public float timeBetweenFire = 0.25f;
     private float fireTimer;
 
     private void Update()
@@ -37,7 +37,10 @@ public class PlayerShoot : NetworkBehaviour
     {
         if (Physics.Raycast(position, direction, out RaycastHit hit) && hit.transform.TryGetComponent(out HealthSync enemyHealth))
         {
-            enemyHealth.health -= damageToGive;
+            if (!IsOwner == enemyHealth)
+            {
+                enemyHealth.health -= damageToGive;
+            }
         }
     }
 }

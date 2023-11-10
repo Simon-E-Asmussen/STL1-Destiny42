@@ -2762,7 +2762,7 @@ MonoBehaviour:
   _componentIndexCache: 0
   _addedNetworkObject: {fileID: 675057791}
   _networkObjectCache: {fileID: 675057791}
-  currentHealth: 3
+  currentHealth: 10
 --- !u!65 &675057793
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8650,7 +8650,6 @@ MonoBehaviour:
   player: {fileID: 0}
   GameOverMenu: {fileID: 958170497}
   Healhbar: {fileID: 1032502763}
-  Health: 0
 --- !u!114 &1763805650
 MonoBehaviour:
   m_ObjectHideFlags: 0

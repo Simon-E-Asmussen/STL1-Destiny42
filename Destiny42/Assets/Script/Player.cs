@@ -34,6 +34,7 @@ public class Player : NetworkBehaviour
     private Slider healthBar;
     [SerializeField] private bool isDead = false;
     private GameObject pauseMenu;
+    private GameObject gameOverMenu;
 
     private CharacterSelection _characterSelection;
 
@@ -86,6 +87,7 @@ public class Player : NetworkBehaviour
         
         healthbar = GameObject.Find("Health Bar");
         GameManager = GameObject.Find("GameManager");
+        gameOverMenu = GameObject.Find("GameOverMenu");
     }
 
     void Update()
@@ -132,19 +134,18 @@ public class Player : NetworkBehaviour
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
         
-        // Calls the death method when health reaches 0
-        if (healthBar.value <= 0 && !isDead)
+        // Calls the death method when health reaches 0 and isDead bool is false (since you need to be alive before you die
+        if (!isDead)
         {
-            Debug.Log("Deded again again");
-            Death();
-        }
-
-        if(Input.GetButton("Fire1") && canMove)
-        {
-           // This.Gun.shoot();
+            if (healthBar.value <= 0)
+            {
+                Debug.Log("Deded again again");
+                Death();
+            }
         }
     }
-    
+
+    // If player is alive and not in pause menu they can move
     public void MenuCheck()
     {
         if (!isDead && !GameObject.Find("GameManager").GetComponent<PauseMenu>().isPaused)
@@ -157,29 +158,29 @@ public class Player : NetworkBehaviour
         }
     }
 
+    
+    // 
     [ServerRpc (RequireOwnership = false)]
-    // Disable mouse cursor
     public void Death()
     {
+        // Sets the bools that check for alive/dead so you only die once
         isDead = true;
         canMove = false;
+        // Saves a reference to the player so it can be set active from the gamemanager again
         GameManager.GetComponent<GameOver>().PlayerReference(gameObject);
         gameObject.SetActive(false);
     }
 
+    // Sets the bools that check if you are alive when you respawn
     [ServerRpc (RequireOwnership = false)]
     public void Alive(bool Respawn)
     {
         if (Respawn)
         {
-            //this.gameObject.GetComponent<HealthSync>().SetHealth();
             isDead = false;
             canMove = true;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
-    }
-
-    public void GotHit(float damage)
-    {
-        healthbar.GetComponent<Healthbar>().TakeDamage(damage);
     }
 }

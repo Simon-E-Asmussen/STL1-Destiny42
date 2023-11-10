@@ -34,9 +34,7 @@ public class GunBase : NetworkBehaviour
 
 
     void Start()
-
     {
-
         laserLine = GetComponentInChildren<LineRenderer>();
 
         gunAudio = GetComponent<AudioSource>();
@@ -47,7 +45,6 @@ public class GunBase : NetworkBehaviour
         fireRate = 0.25f;
         weaponRange = 50f;
         hitForce = 100f;
-
     }
 
     void Update()
@@ -80,17 +77,6 @@ public class GunBase : NetworkBehaviour
                     {
                         hit.rigidbody.AddForce(-hit.normal * hitForce);
                     }
-                    /*
-                    Player opponent = hit.collider.GetComponent<Player>();
-                    Debug.Log(opponent);
-
-                    // Deal damage to opponent
-                    if (opponent != null)
-                    {
-                        Debug.Log("Took Damage!");
-                        opponent.GotHit(10f);
-                    }
-                    */
                 }
             }
 
