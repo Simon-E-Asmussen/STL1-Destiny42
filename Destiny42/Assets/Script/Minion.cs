@@ -6,17 +6,17 @@ using FishNet.Object;
 
 public abstract class Minion : NetworkBehaviour
 {
-    int hp;
-    float speed;
-    float weight;
-    int dmg;
-    float firerate;
-    GameObject[] players;
-    bool strike = false;
+    public int hp;
+    public float speed;
+    public float weight;
+    public int dmg;
+    public float firerate;
+    public GameObject[] players;
+    public bool strike = false;
 
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         players = (GameObject[])GameObject.FindGameObjectsWithTag("FPSplayer");
     }
