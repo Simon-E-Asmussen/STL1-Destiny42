@@ -78,10 +78,13 @@ public class Player : NetworkBehaviour
     void Update()
     {
 
-        if (grenadeThrown)
+        if (grenadeThrown && spawned != null)
         {
             spawned.SetActive(true);
+
+            
         }
+
         // We are grounded, so recalculate move direction based on axes
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
@@ -139,6 +142,7 @@ public class Player : NetworkBehaviour
         spawned.GetComponent<FIREBALL>().SetTarget(hit);
         GetComponentInChildren<reposIndicator>().SweetRelease();
         grenadeThrown = true;
+        Debug.LogWarning("bool is true");
     }
 
     [ObserversRpc]

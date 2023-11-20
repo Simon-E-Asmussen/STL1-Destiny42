@@ -17,7 +17,7 @@ public class Grenade : MonoBehaviour
     {
         fpsCam = Camera.main;
         primed = false;
-        abilityRange = 10000f;
+        abilityRange = 5000f;
         UnityEngine.Object indPrefab = Resources.Load("Prefabs/GrenadeIndicator");
      
         indicator = (GameObject)indPrefab;

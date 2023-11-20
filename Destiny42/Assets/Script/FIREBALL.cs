@@ -10,9 +10,10 @@ public class FIREBALL : NetworkBehaviour
     
     Vector3 target;
     bool recieved = false;
-    readonly float speed = 50f;
+    readonly float speed = 10f;
     bool hasGone = false;
     SphereCollider col;
+    public GameObject myself;
 
 
     private void Awake()
@@ -79,6 +80,8 @@ public class FIREBALL : NetworkBehaviour
     void Explode()
     {
         Debug.LogWarning("I blew up");
-        hasGone = true;
+        // Deal Damage
+
+        Destroy(this.gameObject);
     }
 }

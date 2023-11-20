@@ -50,6 +50,7 @@ MonoBehaviour:
   _componentIndexCache: 0
   _addedNetworkObject: {fileID: 6944329266777174495}
   _networkObjectCache: {fileID: 6944329266777174495}
+  myself: {fileID: 5620063746536472368}
 --- !u!114 &6944329266777174495
 MonoBehaviour:
   m_ObjectHideFlags: 0
