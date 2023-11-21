@@ -27,16 +27,15 @@ public class GameOver : NetworkBehaviour
     private void Update()
     {
         // Gives the player a game over panel when health reach 0 or less
-        if (!deadCheck)
-        {
-            if (Healhbar.value <= 0)
-            {
-                GameOverMenu.SetActive(true);
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
-                deadCheck = true;
-            }
+        
+        if (Healhbar.value <= 0) 
+        { 
+            GameOverMenu.SetActive(true); 
+            Cursor.visible = true; 
+            Cursor.lockState = CursorLockMode.None; 
+            deadCheck = true;
         }
+        
         if (Healhbar.value > 0)
         {
             Debug.Log("Alive!");
@@ -51,7 +50,7 @@ public class GameOver : NetworkBehaviour
     }
     
     // Respawns the player when the Respawn button is pressed
-    [ServerRpc (RequireOwnership = false)]
+    // [ServerRpc (RequireOwnership = false)]
     public void Respawn()
     {
         //GameOverMenu.SetActive(false);
@@ -65,7 +64,7 @@ public class GameOver : NetworkBehaviour
     }
 
     // Is used to get a reference to the player e.g. used in in player script to set the player variable to a specific player
-    [ServerRpc (RequireOwnership = false)]
+    // [ServerRpc (RequireOwnership = false)]
     public void PlayerReference(GameObject Player)
     {
         player = Player;
