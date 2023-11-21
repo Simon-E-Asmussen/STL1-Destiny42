@@ -96,12 +96,9 @@ public class Player : NetworkBehaviour
 
     void Update()
     {
-
         if (grenadeThrown && spawned != null)
         {
             spawned.SetActive(true);
-
-            
         }
 
         // We are grounded, so recalculate move direction based on axes
@@ -169,9 +166,7 @@ public class Player : NetworkBehaviour
             canMove = false;
         }
     }
-
     
-    // 
     [ServerRpc (RequireOwnership = false)]
     public void Death()
     {

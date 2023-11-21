@@ -15,11 +15,11 @@ C:/Users/mathi/Documents/SDU/7. Semester/Social Technology Lab/Boss Game/STL1-De
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57049
+58939
 Successfully changed project path to: C:/Users/mathi/Documents/SDU/7. Semester/Social Technology Lab/Boss Game/STL1-Destiny42/Destiny42
 C:/Users/mathi/Documents/SDU/7. Semester/Social Technology Lab/Boss Game/STL1-Destiny42/Destiny42
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -35,591 +35,133 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003975 seconds.
+Registered in 0.002196 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.539 seconds
+- Completed reload, in  0.501 seconds
 Domain Reload Profiling:
-	ReloadAssembly (539ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (501ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (408ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (377ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (174ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (147ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005853 seconds.
+Registered in 0.004640 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000029B2B63E010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file data-000002179D2AD420 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AF3B010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file data-0000021779345C30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B675330 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002179D83D0B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B0728D840 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002179E1CBC30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AF5FE20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000021779345C30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2C479010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file data-00000217793CF010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AEA5220 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002179DF2A020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AF75030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002179D2DD840 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AEA5220 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002177937CE40 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B06F84380 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002179D2F9010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AEA5220 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002179DF59C40 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B06FA3790 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002179D2F9010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AEA5220 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002177937CE40 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AEA5220 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002179DF59C40 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AEA5220 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file data-000002179DF59C40 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2BFFCC30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file data-00000217795D0D80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2BFFCC30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000002179DF65C50 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2BFFCC30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002179DF65C50 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AF90020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002179D929010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2BFFCC30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000217795D0D80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AFC9430 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002179D152020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B06B73E20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file data-000002179D33A230 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
+- Completed reload, in  0.884 seconds
 Domain Reload Profiling:
-	ReloadAssembly (888ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (696ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
+			SetupTypeCache (219ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (262ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2255 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.1 MB.
-System memory in use after: 176.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2698.
-Total: 2.994300 ms (FindLiveObjects: 0.202400 ms CreateObjectMapping: 0.102100 ms MarkObjects: 2.611900 ms  DeleteObjects: 0.077100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/DustMotesEffect.prefab
-  artifactKey: Guid(5ca4c580b3888314581688fa46fb142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/DustMotesEffect.prefab using Guid(5ca4c580b3888314581688fa46fb142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb50f5d6d2bba5a3d0977787bd4b55b') in 0.110956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Resources/Prefabs/GrenadeIndicator.prefab
-  artifactKey: Guid(23d0fdc0c3c9899449ad9412583ec68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/GrenadeIndicator.prefab using Guid(23d0fdc0c3c9899449ad9412583ec68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9503a730569249dc96c76ae14d04d129') in 0.022088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/MediumFlames.prefab
-  artifactKey: Guid(be6847dd39ab95f4daa2ed98e4f90564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/MediumFlames.prefab using Guid(be6847dd39ab95f4daa2ed98e4f90564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a30dcf9f4798a16d986491169f85dfb') in 0.037336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/FishNet/Demos/Prefabs/NetworkHudCanvas.prefab
-  artifactKey: Guid(0570b6f7f713dc44a90463654bbcd8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/Prefabs/NetworkHudCanvas.prefab using Guid(0570b6f7f713dc44a90463654bbcd8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb154d6efcf06c6877537b2dc3e5c50b') in 0.025737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/ParticlesLight.prefab
-  artifactKey: Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/ParticlesLight.prefab using Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0934e3ec559082a122d43c0e51dc8610') in 0.012218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Prefabs/BossPlayer.prefab
-  artifactKey: Guid(122183e75f9364140acca43f4b62acc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BossPlayer.prefab using Guid(122183e75f9364140acca43f4b62acc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a732e107fa39ef3cf383991f821ddb67') in 0.028516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FlameStream.prefab
-  artifactKey: Guid(bccc7a794e75b2a44a4b0dac69160b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FlameStream.prefab using Guid(bccc7a794e75b2a44a4b0dac69160b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a68ee3192e3e80cb793287b67d0eff') in 0.017035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Prefabs/MetalImpacts.prefab
-  artifactKey: Guid(44be68b4fc4366142a9cd1ae1f761ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Prefabs/MetalImpacts.prefab using Guid(44be68b4fc4366142a9cd1ae1f761ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82c0cfd2124a801a84a522a1deb58cc') in 0.027376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/BigExplosion.prefab
-  artifactKey: Guid(e1b08032bec16ba4eb1ae23cbd572664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/BigExplosion.prefab using Guid(e1b08032bec16ba4eb1ae23cbd572664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9077879decd3662dc796644aa024946') in 0.027268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Resources/Prefabs/BossPlayer.prefab
-  artifactKey: Guid(f83d813af49338a4cbcadb9d903194e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/BossPlayer.prefab using Guid(f83d813af49338a4cbcadb9d903194e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75dcadeab4dc8a47468de4056578bff') in 0.010193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/FloorLong.prefab
-  artifactKey: Guid(364e3c46cc3cab14190de95b5e46dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/FloorLong.prefab using Guid(364e3c46cc3cab14190de95b5e46dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478de14c334f6566bfd35794308b6a35') in 0.073570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Prefabs/FleshImpacts.prefab
-  artifactKey: Guid(24b82347924701148a13c746edfb6b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Prefabs/FleshImpacts.prefab using Guid(24b82347924701148a13c746edfb6b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50c1a384d86f84dadab3eaf42afa79e') in 0.044387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/FishNet/Demos/SceneManager/Additive Scenes/Prefabs/Player.prefab
-  artifactKey: Guid(6331b3542e64a564c81bc39cedf70c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/SceneManager/Additive Scenes/Prefabs/Player.prefab using Guid(6331b3542e64a564c81bc39cedf70c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e292a76d2c02a0fa53dd83f7ca82d0f8') in 0.017364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/FishNet/Demos/SceneManager (Old Examples)/Prefabs/Player.prefab
-  artifactKey: Guid(bf5f023b4017a5e41a9815ec5745df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/SceneManager (Old Examples)/Prefabs/Player.prefab using Guid(bf5f023b4017a5e41a9815ec5745df3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e13869d4f75eec6a755c3ffefcc6e26') in 0.016824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Resources/Prefabs/FireBallShot.prefab
-  artifactKey: Guid(70b4937f96cb6754b8a172c8e16ec0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/FireBallShot.prefab using Guid(70b4937f96cb6754b8a172c8e16ec0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee97a753c0d2352314e864a7a986c3a8') in 0.026246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Prefabs/Player.prefab
-  artifactKey: Guid(6fcc382533eeddd4cb59b9e20acca545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Prefabs/Player.prefab using Guid(6fcc382533eeddd4cb59b9e20acca545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6c55f6dea7ff9ebdd6376418ba6a8f') in 0.083433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/ElectricalSparks.prefab
-  artifactKey: Guid(96b2ec0239d11fa4b9792311efceb8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/ElectricalSparks.prefab using Guid(96b2ec0239d11fa4b9792311efceb8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b01ec82ef5cca298b731027ad97864c') in 0.016083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopSprayEffect.prefab
-  artifactKey: Guid(abb9f519b142e304d9c45b56afa768bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopSprayEffect.prefab using Guid(abb9f519b142e304d9c45b56afa768bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d38b09f1ab79ad4fbd5adec3a83ab08') in 0.021938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/LargeFlames.prefab
-  artifactKey: Guid(bb98861c48ad2024ca93498c7dd93a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/LargeFlames.prefab using Guid(bb98861c48ad2024ca93498c7dd93a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f170f45397d41f99564fc62f7ee73ddf') in 0.018684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/ParticlesLight.prefab
-  artifactKey: Guid(61a6b3a108030e54ba372fe7097916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/ParticlesLight.prefab using Guid(61a6b3a108030e54ba372fe7097916d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eccc6a62ab66cfab53184b384309ea') in 0.005837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Resources/Prefabs/FPSplayer.prefab
-  artifactKey: Guid(89880fc79c23b404c990c9b9dfc417ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/FPSplayer.prefab using Guid(89880fc79c23b404c990c9b9dfc417ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e04ae66f1daa9f60a2ab475576a6f1') in 0.022413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/FishNet/Demos/ColliderRollback/Prefabs/Particles/Pistol Muzzle Flash.prefab
-  artifactKey: Guid(4385a793e032d634bb912f84a23d6db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/ColliderRollback/Prefabs/Particles/Pistol Muzzle Flash.prefab using Guid(4385a793e032d634bb912f84a23d6db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8ebde0ce6513982a4d321bd0a512ec') in 0.041310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/FishNet/Demos/HashGrid/Prefabs/HashGrid_Moving.prefab
-  artifactKey: Guid(44611030e61220d42ab7c37ba3c0ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/HashGrid/Prefabs/HashGrid_Moving.prefab using Guid(44611030e61220d42ab7c37ba3c0ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583bbb01f14527c8c366d01cdf23eb90') in 0.019206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/FishNet/Demos/HashGrid/Prefabs/HashGrid_Static.prefab
-  artifactKey: Guid(0d6d0f48b03b17f49a6340103cd9b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/HashGrid/Prefabs/HashGrid_Static.prefab using Guid(0d6d0f48b03b17f49a6340103cd9b9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e80979be2b316bb67aee39759cf96e4') in 0.014554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/LongOverhangWall.prefab
-  artifactKey: Guid(c5aa08609f3d9f547aca9af1d6c18070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/LongOverhangWall.prefab using Guid(c5aa08609f3d9f547aca9af1d6c18070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3720f82fd2c0ffb20f023472629399fb') in 0.060885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/FishNet/Demos/Prediction V2 (Experimental)/CharacterController/Prefabs/CharacterControllerPrediction.prefab
-  artifactKey: Guid(5b712878ecece354ba4ffb026c0a221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/Prediction V2 (Experimental)/CharacterController/Prefabs/CharacterControllerPrediction.prefab using Guid(5b712878ecece354ba4ffb026c0a221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b041a15ee43d10d3834b595bb4a010f8') in 0.016680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/PlasmaExplosionEffect.prefab
-  artifactKey: Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/PlasmaExplosionEffect.prefab using Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7280b45dee556dbfa1fc52e0e092a6e3') in 0.030130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/EndWall.prefab
-  artifactKey: Guid(a53fe34087284794dbe0aad895670634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/EndWall.prefab using Guid(a53fe34087284794dbe0aad895670634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9a65717ee1ae0d0a5045ecb08ebc5f') in 0.028862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Prefabs/IceLance.prefab
-  artifactKey: Guid(1a1c02facd51d87458dcaa3a761e2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Prefabs/IceLance.prefab using Guid(1a1c02facd51d87458dcaa3a761e2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035e67569819ac70dd7f160beef91a85') in 0.046199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/Heat Distortion.prefab
-  artifactKey: Guid(ea309e8646148c24ab067d84d5d22697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/Heat Distortion.prefab using Guid(ea309e8646148c24ab067d84d5d22697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6c17450013f9452c840aedfd415e2a') in 0.034351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/EnergyExplosion.prefab
-  artifactKey: Guid(9bba9cf244c53c5439505dfc96fdd11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/EnergyExplosion.prefab using Guid(9bba9cf244c53c5439505dfc96fdd11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bbbdd9fc2149bc691b8054e543063f') in 0.029404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Prefabs/BigSplash.prefab
-  artifactKey: Guid(c1c88308ebb5d2541a282905b854ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Prefabs/BigSplash.prefab using Guid(c1c88308ebb5d2541a282905b854ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11da658470b72370b910bcda423b0b55') in 0.017419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopStreamEffect.prefab
-  artifactKey: Guid(a3768c8a9d1b90d4bb0eb0e4bdbe730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopStreamEffect.prefab using Guid(a3768c8a9d1b90d4bb0eb0e4bdbe730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f14503668331d2292e35643e90f21b') in 0.020632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/FPSplayer.prefab
-  artifactKey: Guid(a8dc05482d30dc54382f318552e586c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FPSplayer.prefab using Guid(a8dc05482d30dc54382f318552e586c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cedc3a933a01410a222910ee4a0936') in 0.017327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Resources/Prefabs/Client.prefab
-  artifactKey: Guid(860a4392714b2024ebdaf6dab56f06d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Client.prefab using Guid(860a4392714b2024ebdaf6dab56f06d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95de89ced8b414f368144a2c569b2341') in 0.021218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/FloorShort.prefab
-  artifactKey: Guid(020c53dc8ae609f4c9ddc4cbe9d3b4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/FloorShort.prefab using Guid(020c53dc8ae609f4c9ddc4cbe9d3b4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbc44bc9c45cca23b1abb14e336cc4c') in 0.036170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/FishNet/Demos/Network LOD/Prefabs/PlayerPrefab.prefab
-  artifactKey: Guid(300370bdf7819da41937e0beac65b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/Network LOD/Prefabs/PlayerPrefab.prefab using Guid(300370bdf7819da41937e0beac65b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cc80bb6cf45b1f843c7c08b675debe') in 0.021881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Prefabs/MuzzleFlash01.prefab
-  artifactKey: Guid(ad2ab49d0a2a17148bd51c93d977bdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Prefabs/MuzzleFlash01.prefab using Guid(ad2ab49d0a2a17148bd51c93d977bdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9398df8c39fddad7e9cbad33a33a0763') in 0.028082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/GroundFog.prefab
-  artifactKey: Guid(1a365141225c22e49a7bb976869b22a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/GroundFog.prefab using Guid(1a365141225c22e49a7bb976869b22a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990d42cf77e8b10c5d6f675745134771') in 0.028731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/FishNet/Demos/ColliderRollback/Prefabs/Rollback Visualization/ClientPosition.prefab
-  artifactKey: Guid(ad8f5b5504b971d42886f4f6fd087d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/ColliderRollback/Prefabs/Rollback Visualization/ClientPosition.prefab using Guid(ad8f5b5504b971d42886f4f6fd087d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fd958c7b820fd32b53368759c6e098') in 0.018025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FireBall.prefab
-  artifactKey: Guid(a990e3ac1318b834488c784d851f42a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FireBall.prefab using Guid(a990e3ac1318b834488c784d851f42a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9ce17463d2c3ace128b66b9f1da1a1') in 0.017355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Prefabs/EarthShatter.prefab
-  artifactKey: Guid(32c9fd11a72259d45aa26ae41c34c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Prefabs/EarthShatter.prefab using Guid(32c9fd11a72259d45aa26ae41c34c5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc90b2ed3c707731ba449fd2018b38b3') in 0.026351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/CornerWall.prefab
-  artifactKey: Guid(21617474d5ac06548b6020406dbe6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/CornerWall.prefab using Guid(21617474d5ac06548b6020406dbe6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addf26fabc3df2a376be9bf9fa94854d') in 0.038708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/FishNet/Demos/Prediction V1/CharacterController/Prefabs/CharacterControllerPrediction.prefab
-  artifactKey: Guid(b2991431a5f893e49937d01b6da44ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/Prediction V1/CharacterController/Prefabs/CharacterControllerPrediction.prefab using Guid(b2991431a5f893e49937d01b6da44ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95caa7a609d7f0737b1e52e092718bca') in 0.017092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopSpray.prefab
-  artifactKey: Guid(5656e7ea1f1a75d4c895547ec2b824b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Prefabs/GoopSpray.prefab using Guid(5656e7ea1f1a75d4c895547ec2b824b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f57d9b835d6423fb54efe60bde95b2') in 0.017821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/Dissolve.prefab
-  artifactKey: Guid(df3177fc67fceda4cb1e5acda4964f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/Dissolve.prefab using Guid(df3177fc67fceda4cb1e5acda4964f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081c7c1be03da4131f317bd772a01231') in 1.789420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/Candles.prefab
-  artifactKey: Guid(86f883933a872f542994368197c83b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/Candles.prefab using Guid(86f883933a872f542994368197c83b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b55108da3fc3aa5b21380f160ef43a') in 0.022071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/FishNet/Demos/Network LOD/Prefabs/LODObjectPrefab.prefab
-  artifactKey: Guid(f32d4c19de900e64cb73cedcb8ba6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/Network LOD/Prefabs/LODObjectPrefab.prefab using Guid(f32d4c19de900e64cb73cedcb8ba6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11aad9d52fc3e63f2747cf90808293a') in 0.017374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/FishNet/Demos/Prefabs/NetworkManager.prefab
-  artifactKey: Guid(0b650fca685f2eb41a86538aa883e4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/Prefabs/NetworkManager.prefab using Guid(0b650fca685f2eb41a86538aa883e4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2e8daf82d1b6e5734a1b98a27a2bc7') in 0.044496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/DustExplosion.prefab
-  artifactKey: Guid(d8f0099df63275647a8bcf646df1ca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/DustExplosion.prefab using Guid(d8f0099df63275647a8bcf646df1ca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6074d4423f6565a5c9205fada4c3d68f') in 0.020011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/DustStorm.prefab
-  artifactKey: Guid(9e03786a9517b604d8e930182607a128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Prefabs/DustStorm.prefab using Guid(9e03786a9517b604d8e930182607a128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bccc8f881a9385b7b16f29f3df632e5') in 0.020577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/FloorTiny.prefab
-  artifactKey: Guid(8e1da52275f7dd14982d99253940530e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/FloorTiny.prefab using Guid(8e1da52275f7dd14982d99253940530e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae27431e8883dc528ad002329fe978f2') in 0.024836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/FishNet/Demos/ColliderRollback/Prefabs/Player.prefab
-  artifactKey: Guid(8cf33e8e99a9b0c4c8f29ff725650de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FishNet/Demos/ColliderRollback/Prefabs/Player.prefab using Guid(8cf33e8e99a9b0c4c8f29ff725650de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3545b180cd2b7cdd1816ff0c4dcfa1') in 0.005150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/FloorMiddle.prefab
-  artifactKey: Guid(4a71a58a3a7116c4a8aabbf8699066aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Prefabs/FloorMiddle.prefab using Guid(4a71a58a3a7116c4a8aabbf8699066aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23226dbf124e4af54dbcf25af349f2b') in 0.025934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FlameThrower.prefab
-  artifactKey: Guid(007c57e2df8e9b144b99f471b84f3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FlameThrower.prefab using Guid(007c57e2df8e9b144b99f471b84f3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fa40f63dee47e07a5f2e19349d6f69') in 0.018505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/FireFlies.prefab
-  artifactKey: Guid(379785de5e39005469c875710d3cc5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/FireFlies.prefab using Guid(379785de5e39005469c875710d3cc5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd23591e02b1b5a295ebd05a8a54866e') in 0.020327 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.0 MB.
-System memory in use after: 132.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2715.
-Total: 7.309300 ms (FindLiveObjects: 0.616500 ms CreateObjectMapping: 0.212700 ms MarkObjects: 6.331800 ms  DeleteObjects: 0.146500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.049813 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000029B2B1DD020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B1DD020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2C286480 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B021020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2E95F010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31AA8010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2ADBC010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B021020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B32D020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B021020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B32D020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AD9DA40 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2EB82030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2EB82030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2ADBC010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2ADBC010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CB21030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2F234010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B76E64030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
-Domain Reload Profiling:
-	ReloadAssembly (948ms)
-		BeginReloadAssembly (149ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (739ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (283ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadAttributes (163ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.9 MB.
-System memory in use after: 174.0 MB.
+Unloading 2255 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.2 MB.
+System memory in use after: 176.3 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2718.
-Total: 4.627100 ms (FindLiveObjects: 0.646200 ms CreateObjectMapping: 0.281300 ms MarkObjects: 3.657500 ms  DeleteObjects: 0.040700 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 2.924000 ms (FindLiveObjects: 0.177500 ms CreateObjectMapping: 0.086900 ms MarkObjects: 2.577300 ms  DeleteObjects: 0.081400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -634,127 +176,199 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2302.448874 seconds.
-  path: Assets/DefaultPrefabObjects.asset
-  artifactKey: Guid(3e544fb54042ef2488b827345dd3ed1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultPrefabObjects.asset using Guid(3e544fb54042ef2488b827345dd3ed1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4c95f05516c3d4061885ffdad2fe65') in 0.242712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 592.052335 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(8da06cd383c868b45b16c13b0b997b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(8da06cd383c868b45b16c13b0b997b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfa924df460674ac9a867f038f54ec1') in 0.009781 seconds 
+  path: Assets/Resources
+  artifactKey: Guid(685d59825bbb28a4db29d127d4c48d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(685d59825bbb28a4db29d127d4c48d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9807890ba28a2040e41b6fadcf1face') in 0.012366 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004701 seconds.
+Registered in 0.005201 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000029B07378020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file data-0000021779345C30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B32D020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file data-000002179DF2A020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B76BD5C10 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-00000217A1366020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B768D35C0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000021778F18030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2FACA4B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2BEF5030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file data-00000217A09C3010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AB09F70 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000217A00D5020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B302C6F60 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002177951C440 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B30DD6C20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2E415C00 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002179D2A5010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B3066EC80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000217A00D5020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2FA2E390 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000217A127E030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2FACA4B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B4B1070 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000217A0E2B040 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2FE01E70 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file data-00000217A0E2B040 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B319BEDC0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file data-00000217A1366020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B55C964A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000002177951C440 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B302C6F60 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002177951C440 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B06C8D010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000021778D12030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B7640EAA0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000217A1366020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2B8BC020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002179CC18410 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2ADD5010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file data-000002179E704980 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
+- Completed reload, in  1.122 seconds
 Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1123ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2701.
+Total: 2.946900 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.163400 ms MarkObjects: 2.483000 ms  DeleteObjects: 0.027200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004221 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002179DF2A020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D2A5010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179EC45020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217791B9010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D173030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E5B87010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021779568380 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A086B460 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021779345C30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A3A00D10 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A05FD080 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CC0D230 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021779568380 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021779568380 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D2A5010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CC0D230 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179E694020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0B1E650 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (748ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (691ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (218ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (276ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (284ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.9 MB.
-System memory in use after: 174.2 MB.
+System memory in use before: 170.4 MB.
+System memory in use after: 170.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2721.
-Total: 3.848400 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.208100 ms MarkObjects: 3.236800 ms  DeleteObjects: 0.081900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.7 MB.
-System memory in use after: 129.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2721.
-Total: 3.202900 ms (FindLiveObjects: 0.226600 ms CreateObjectMapping: 0.134900 ms MarkObjects: 2.817400 ms  DeleteObjects: 0.023100 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2704.
+Total: 2.667500 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.061400 ms MarkObjects: 2.296000 ms  DeleteObjects: 0.026400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -770,316 +384,834 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004135 seconds.
+Registered in 0.003946 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000029B56248420 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B7667CF20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B768D35C0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2BD57350 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B07463A20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31F58ED0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B30C9CAD0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2BD57350 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31DBCC50 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B560FC020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2FA99BE0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2BD57350 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B558072C0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B55B14EB0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B30C9CAD0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B30C9CAD0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AF3B010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B302540A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.027 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2027ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1850ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (561ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (151ms)
-			SetupLoadedEditorAssemblies (862ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (574ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.0 MB.
-System memory in use after: 174.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2724.
-Total: 3.988400 ms (FindLiveObjects: 0.837200 ms CreateObjectMapping: 0.287100 ms MarkObjects: 2.828700 ms  DeleteObjects: 0.033200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.8 MB.
-System memory in use after: 130.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2724.
-Total: 4.306200 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.187500 ms MarkObjects: 3.800000 ms  DeleteObjects: 0.033500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008174 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000029B56248420 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B3090EB20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B768D35C0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B07398030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B3207E160 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31F58ED0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B06FF2500 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B07398030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B30D1CB50 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AAF8B40 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B302D1990 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B07398030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B558072C0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31F3EE70 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B06FF2500 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B06FF2500 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B7667CF20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000217793DC3A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2CA64010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002179DA79020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31C26FD0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002179D259020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2C2B5030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file data-00000217791B9010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.312 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1313ms)
-		BeginReloadAssembly (199ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1014ms)
-			LoadAssemblies (173ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (364ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (360ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.0 MB.
-System memory in use after: 174.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2727.
-Total: 4.771400 ms (FindLiveObjects: 0.259800 ms CreateObjectMapping: 0.327600 ms MarkObjects: 4.147100 ms  DeleteObjects: 0.035200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004220 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000029B2AF3B010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file data-00000217E5B396B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B78CF4010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file data-00000217E7A19010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2EDF2040 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-00000217A00D5020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B768D35C0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000021779568380 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B07398030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-00000217E5B396B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2E7EF3A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file data-00000217A066C1A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31F58ED0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000217A00D5020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B30B65010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000217A086B460 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B07398030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000217E5B396B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B78CF4010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000217A0E2B040 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B560FC020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000217E79BB0B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2FA99BE0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000217A1366020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B07398030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000217E5D14050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B558072C0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000021779506C20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B765E59F0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file data-0000021778E94030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AF6A820 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file data-00000217A1366020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B30B65010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-00000217A1310050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B30B65010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B7667CF20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AF6A820 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B31C26FD0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029B2AF6A820 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file data-00000217A1366020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
+- Completed reload, in  0.836 seconds
 Domain Reload Profiling:
-	ReloadAssembly (810ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (837ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (649ms)
-			LoadAssemblies (90ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (220ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (269ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2707.
+Total: 2.863300 ms (FindLiveObjects: 0.201400 ms CreateObjectMapping: 0.098100 ms MarkObjects: 2.536700 ms  DeleteObjects: 0.026300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003961 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000217793DC3A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0FB0080 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179E4AF020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217791B9010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179E6F9380 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179ED88010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021779567B80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0FB0080 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179ED88010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217793DC3A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A1310050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9A0F0B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021779506C20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021779567B80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021779567B80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D2A5010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021779506C20 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A1122020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021778FC5F80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadAttributes (159ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.9 MB.
-System memory in use after: 174.1 MB.
+System memory in use before: 170.5 MB.
+System memory in use after: 170.6 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2730.
-Total: 2.943000 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.162700 ms MarkObjects: 2.470000 ms  DeleteObjects: 0.022800 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2710.
+Total: 2.878500 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.108400 ms MarkObjects: 2.403300 ms  DeleteObjects: 0.080400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004673 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000217793DC3A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A070B030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0897A80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217791B9010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A1F7DF10 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A00D5020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021778F1EAB0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A00D5020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179EBF1030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A1310050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A060FFE0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0897A80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217794D7410 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0897A80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A068C1B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002177940BBB0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.4 MB.
+System memory in use after: 170.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 3.516300 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.154400 ms MarkObjects: 2.994400 ms  DeleteObjects: 0.045000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004106 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000217793DC3A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CFDE010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A027B020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E526BEA0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217EB40CDC0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217ED697340 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CFDE010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217ED697340 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179EBF1030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A11C2020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A068C1B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A068C1B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A027B020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D084020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179DA79020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A027B020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A045B020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002177940BBB0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (995ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2716.
+Total: 2.806500 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.127200 ms MarkObjects: 2.427000 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005400 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000217793DC3A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0B58030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CC38CE0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E526BEA0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9A32010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E720A950 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CBFA020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9A32010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0B58030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A1011EB0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179EBF1030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9A32010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A068C1B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A068C1B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CC38CE0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217EF347BD0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179FF82020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CC38CE0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A12A6520 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CC38CE0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1248ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1076ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (427ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 3.105400 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.105900 ms MarkObjects: 2.757600 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.4 MB.
+System memory in use after: 126.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 3.266400 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.128600 ms MarkObjects: 2.884900 ms  DeleteObjects: 0.020200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005940 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000217793DC3A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CFDE010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179E4AF020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179E4AF020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9A32010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217EF34BE30 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217EB53CD80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9A32010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179CFDE010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A1011EB0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179EBF1030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9A32010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A068C1B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0F1C040 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179E4AF020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E5C6FCB0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179D570050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179FF82020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179E4AF020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E8B8D010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179E4AF020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1335ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2722.
+Total: 5.129500 ms (FindLiveObjects: 0.970400 ms CreateObjectMapping: 0.278500 ms MarkObjects: 3.843100 ms  DeleteObjects: 0.034700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004567 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000217793DC3A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217F4D16010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0897A80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217EF349BE0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9A32010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217F49A38A0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0F1C040 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E5C6FCB0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217F49AB110 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217F4D16010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217EB53CD80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179EBF1030 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9A32010 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A068C1B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A068C1B0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0897A80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A02F9050 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E5C6FCB0 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002179FF82020 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0897A80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217E9B14330 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217A0897A80 doesn't match image C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss Game\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (859ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2725.
+Total: 2.701400 ms (FindLiveObjects: 0.190900 ms CreateObjectMapping: 0.097400 ms MarkObjects: 2.389700 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2728.
+Total: 3.372200 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.192200 ms MarkObjects: 2.890700 ms  DeleteObjects: 0.022400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (643ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.6 MB.
+System memory in use after: 170.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2731.
+Total: 2.673600 ms (FindLiveObjects: 0.218400 ms CreateObjectMapping: 0.065100 ms MarkObjects: 2.365600 ms  DeleteObjects: 0.023500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

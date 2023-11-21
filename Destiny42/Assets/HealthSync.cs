@@ -56,8 +56,6 @@ public class HealthSync : NetworkBehaviour
     // breaks the game if its a serverrpc
     public void SetHealth()
     {
-        if (!base.IsOwner)
-            return;
         switch (gameObject.name)
         {
             case "FPSPlayer(Clone)":

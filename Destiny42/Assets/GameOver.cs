@@ -11,8 +11,6 @@ public class GameOver : NetworkBehaviour
     public GameObject GameOverMenu;
     
     public Slider Healhbar;
-    
-    private bool deadCheck = false; // false if player isnt dead yet
 
     private void Awake()
     {
@@ -32,13 +30,12 @@ public class GameOver : NetworkBehaviour
         { 
             GameOverMenu.SetActive(true); 
             Cursor.visible = true; 
-            Cursor.lockState = CursorLockMode.None; 
-            deadCheck = true;
+            Cursor.lockState = CursorLockMode.None;
         }
         
         if (Healhbar.value > 0)
         {
-            //Debug.Log("Alive!");
+            //ve Debug.Log("Alive!");
             GameOverMenu.SetActive(false);
         }
     }
@@ -57,7 +54,6 @@ public class GameOver : NetworkBehaviour
         player.SetActive(true);
         player.GetComponent<HealthSync>().health = player.GetComponent<HealthSync>().maxHealth;
         player.GetComponent<Player>().Alive(true);
-        deadCheck = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         //player.SetActive(true);
