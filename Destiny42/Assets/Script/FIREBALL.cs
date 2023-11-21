@@ -91,7 +91,7 @@ public class FIREBALL : NetworkBehaviour
         Debug.LogWarning("I blew up");
         // Deal Damage
 
-       // Destroy(this.gameObject);
+        Destroy(this.gameObject);
     }
 
     
