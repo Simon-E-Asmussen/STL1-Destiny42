@@ -14,26 +14,25 @@ public class FIREBALL : NetworkBehaviour
     bool hasGone = false;
     SphereCollider col;
     public GameObject myself;
+    int damage = 5;
 
 
-    private void Awake()
-    {
-        Debug.LogWarning("I woke up");
-        this.gameObject.SetActive(true);
-    }
     // Start is called before the first frame update
     void Start()
     {
         Debug.LogWarning("I started");
+
+        //Finds collider and initiates the particle system
         col = GetComponent<SphereCollider>();
         this.GetComponent<ParticleSystem>().Play();
-        this.gameObject.SetActive(true);
+    
     }
 
     // Update is called once per frame
     void Update()
     {
         Debug.LogWarning("I updated");
+        //Moves the fireball toward the target and initiates the collider. Collider is disabled by default to prevent it from exploding on launch.
         if (recieved && !hasGone)
         {
             var step = speed * Time.deltaTime; // calculate distance to move
@@ -43,6 +42,8 @@ public class FIREBALL : NetworkBehaviour
 
         if(transform.position == target)
         {
+            
+            this.transform.localScale = (new Vector3(8, 8, 8));
             hasGone = true;
             Explode();
         }
@@ -56,14 +57,22 @@ public class FIREBALL : NetworkBehaviour
         Debug.LogWarning("Trigger collision");
         if (hasGone)
         {
-            //StartCoroutine(Wait()) ;
-            col.radius = 8;
+            
+            
+            this.transform.localScale = (new Vector3(8,8,8));
+            Explode();
         }
         else if (!hasGone)
         {
             hasGone = true;
-            Explode();
+            target = this.transform.position;
         } 
+
+        if(other.GetComponent<ShootableTarget>() != null)
+        {
+            other.GetComponent<ShootableTarget>().Damage(damage);
+
+        }
     }
     IEnumerator Wait()
     {
@@ -82,6 +91,8 @@ public class FIREBALL : NetworkBehaviour
         Debug.LogWarning("I blew up");
         // Deal Damage
 
-        Destroy(this.gameObject);
+       // Destroy(this.gameObject);
     }
+
+    
 }
