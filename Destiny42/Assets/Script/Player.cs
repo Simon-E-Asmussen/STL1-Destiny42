@@ -21,6 +21,7 @@ public class Player : NetworkBehaviour
     public float lookXLimit = 45.0f;
     public GameObject spawnedObject;
     public GameObject spawned;
+    public GameObject gunEnd;
 
     bool grenadeThrown = false;
 
@@ -201,7 +202,7 @@ public class Player : NetworkBehaviour
 
     public void FireballTime(GameObject fireball, Transform player, Player script, Vector3 hit)
     {
-        spawned =  GameObject.Instantiate(fireball, player.position + player.forward, Quaternion.identity);
+        spawned =  GameObject.Instantiate(fireball, gunEnd.transform.position + Camera.main.transform.forward, Quaternion.identity);
 
         Debug.LogWarning("Activate and Kill");
         spawned.SetActive(true);

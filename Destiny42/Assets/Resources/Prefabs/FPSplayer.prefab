@@ -459,7 +459,6 @@ GameObject:
   - component: {fileID: 6246797650837087717}
   - component: {fileID: 6246797650837087718}
   - component: {fileID: 6246797650837087719}
-  - component: {fileID: 6246797650837087716}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -530,19 +529,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6246797650837087716
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6246797650837087722}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6246797651042059589
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,8 +689,13 @@ MonoBehaviour:
   lookSpeed: 2
   lookXLimit: 45
   spawnedObject: {fileID: 5620063746536472368, guid: 70b4937f96cb6754b8a172c8e16ec0d9, type: 3}
+  spawned: {fileID: 0}
+  gunEnd: {fileID: 5239193786075610841}
   canMove: 1
   cameraYOffset: 1.5
+  isDead: 0
+  healthbar: {fileID: 0}
+  GameManager: {fileID: 0}
 --- !u!114 &6246797651336079824
 MonoBehaviour:
   m_ObjectHideFlags: 0
