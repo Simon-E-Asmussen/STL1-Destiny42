@@ -606,7 +606,7 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 9151912117641424500}
   _networkObjectCache: {fileID: 9151912117641424500}
   beans:
-  - {fileID: 6246797651336079829, guid: 89880fc79c23b404c990c9b9dfc417ff, type: 3}
+  - {fileID: 6246797651336079829, guid: a8dc05482d30dc54382f318552e586c7, type: 3}
   - {fileID: 8718022834184776601, guid: f83d813af49338a4cbcadb9d903194e3, type: 3}
   characterSelectionPanel: {fileID: 6634334951807990788}
   canvas: {fileID: 1368730909503411430}

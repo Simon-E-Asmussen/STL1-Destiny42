@@ -38,7 +38,7 @@ public class GameOver : NetworkBehaviour
         
         if (Healhbar.value > 0)
         {
-            Debug.Log("Alive!");
+            //Debug.Log("Alive!");
             GameOverMenu.SetActive(false);
         }
     }
