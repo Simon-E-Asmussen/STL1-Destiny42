@@ -793,6 +793,9 @@ MonoBehaviour:
   gravity: 20
   lookSpeed: 2
   lookXLimit: 45
+  spawnedObject: {fileID: 0}
+  spawned: {fileID: 0}
+  gunEnd: {fileID: 0}
   canMove: 1
   cameraYOffset: 1.5
   isDead: 0
@@ -811,11 +814,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NetworkObserver: {fileID: 0}
-  <PrefabId>k__BackingField: 0
+  <PrefabId>k__BackingField: 2
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 0
   <SceneId>k__BackingField: 0
-  <AssetPathHash>k__BackingField: 3487806007313680931
+  <AssetPathHash>k__BackingField: 1044223148550439138
   <IsNested>k__BackingField: 0
   <ComponentIndex>k__BackingField: 0
   <PredictedSpawn>k__BackingField: {fileID: 0}

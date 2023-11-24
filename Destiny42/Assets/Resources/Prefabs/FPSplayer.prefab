@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 6246797651336079825}
   m_Layer: 0
   m_Name: FPSplayer
-  m_TagString: Untagged
+  m_TagString: FPSplayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -709,7 +709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NetworkObserver: {fileID: 0}
-  <PrefabId>k__BackingField: 14
+  <PrefabId>k__BackingField: 16
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 0
   <SceneId>k__BackingField: 0

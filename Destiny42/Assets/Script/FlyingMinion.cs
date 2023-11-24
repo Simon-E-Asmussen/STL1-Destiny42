@@ -10,8 +10,8 @@ public class FlyingMinion : Minion
     public Material mat2;
     MeshRenderer mesh;
     float cooldown = 3f;
-    float timestamp1;
-    float timestamp2;
+    float timestamp1 = 0f;
+    float timestamp2 = 0f;
 
     private Vector3 Target;
     

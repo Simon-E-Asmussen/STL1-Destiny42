@@ -40,6 +40,7 @@ public class GroundMinion : Minion
 
         if (timestamp2 <= Time.time) 
         {
+            Debug.LogWarning(FindClosestEnemy());
             Target = FindClosestEnemy().transform.position;
             timestamp2 = Time.time + 5;
             Debug.LogWarning("Choosing a target");

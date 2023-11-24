@@ -574,7 +574,7 @@ MonoBehaviour:
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 0
   <SceneId>k__BackingField: 0
-  <AssetPathHash>k__BackingField: 79573583687270541
+  <AssetPathHash>k__BackingField: 6394362632479626252
   <IsNested>k__BackingField: 0
   <ComponentIndex>k__BackingField: 0
   <PredictedSpawn>k__BackingField: {fileID: 0}
@@ -610,6 +610,7 @@ MonoBehaviour:
   - {fileID: 8718022834184776601, guid: f83d813af49338a4cbcadb9d903194e3, type: 3}
   characterSelectionPanel: {fileID: 6634334951807990788}
   canvas: {fileID: 1368730909503411430}
+  isBoss: 0
 --- !u!1 &4945933531151397339
 GameObject:
   m_ObjectHideFlags: 0
