@@ -45,7 +45,7 @@ public class FIREBALL : NetworkBehaviour
         {
             var step = speed * Time.deltaTime; // calculate distance to move
             transform.position = Vector3.MoveTowards(transform.position, target, step);
-            col.enabled = true;
+            
         }
 
         if(transform.position == target)
@@ -63,6 +63,7 @@ public class FIREBALL : NetworkBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.LogWarning("Trigger collision");
+        Debug.LogWarning("Triggered by" + other);
         if (other.name != "FPSlayer(clone)")
         {
             if (hasGone)
