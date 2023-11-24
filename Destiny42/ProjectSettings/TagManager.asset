@@ -6,6 +6,7 @@ TagManager:
   tags:
   - gunEnd
   - CharacterSelect
+  - FPSplayer
   - localIndicator
   layers:
   - Default

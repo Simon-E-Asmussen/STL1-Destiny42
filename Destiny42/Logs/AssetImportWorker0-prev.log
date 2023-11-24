@@ -147,6 +147,12 @@ Received Import Request.
   artifactKey: Guid(fdd88e47b9ec964439e8f8bc091b42ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Script/FIREBALL.cs using Guid(fdd88e47b9ec964439e8f8bc091b42ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92a6488671d6b03db01d3b0ab42f944') in 0.082369 seconds 
 ========================================================================
+Received Import Request.
+  Time since last request: 31.082137 seconds.
+  path: Assets/Mats
+  artifactKey: Guid(9c36e37e428ff0a4d8ae60c0238dd36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats using Guid(9c36e37e428ff0a4d8ae60c0238dd36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b36c3d239573fef8b0482b05b4e8d8') in 0.020336 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.014248 seconds.
