@@ -1,21 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FishNet.Connection;
+using FishNet.Object;
 
 public class GroundMinion : Minion
 {
-    public BoxCollider Hurtbox;
+    public BoxCollider hurtbox;
     public Material mat1;
     public Material mat2;
     MeshRenderer mesh;
     float cooldown = 3f;
-    float timestamp;
+    float timestamp1;
+    float timestamp2;
+
+    Vector3 Target;
+    
     // Start is called before the first frame update
-    new void Start()
+    void Awake()
     {
         mesh = this.GetComponent<MeshRenderer>();
         mesh.material = mat1;
-        
+        Minion.minion = this.gameObject;
+
     }
 
     // Update is called once per frame
@@ -23,22 +30,31 @@ public class GroundMinion : Minion
     {
         if (strike)
         {
-            timestamp = Time.time + cooldown;
+            timestamp1 = Time.time + cooldown;
         }
 
-        if(timestamp <= Time.time)
+        if(timestamp1 <= Time.time)
         {
             Attack();
         }
+
+        if (timestamp2 <= Time.time) 
+        {
+            Target = FindClosestEnemy().transform.position;
+            timestamp2 = Time.time + 5;
+            Debug.LogWarning("Choosing a target");
+        }
         
+        Move(Target);
+       
     }
 
-    new void MinionAttack()
+    public override void MinionAttack()
     {
-        Hurtbox.enabled = true;
+        hurtbox.enabled = true;
         mesh.material = mat2;
         StartCoroutine(Wait());
-        Hurtbox.enabled = false;
+        hurtbox.enabled = false;
         mesh.material = mat1;
     }
 

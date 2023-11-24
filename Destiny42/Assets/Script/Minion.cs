@@ -11,8 +11,10 @@ public abstract class Minion : NetworkBehaviour
     public float weight;
     public int dmg;
     public float firerate;
-    public GameObject[] players;
-    public bool strike = false;
+    public static GameObject[] players;
+    public static bool strike = false;
+    public static GameObject minion;
+ 
 
 
     // Start is called before the first frame update
@@ -21,11 +23,7 @@ public abstract class Minion : NetworkBehaviour
         players = (GameObject[])GameObject.FindGameObjectsWithTag("FPSplayer");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 
     public void Move(Vector3 target)
     {
@@ -35,10 +33,10 @@ public abstract class Minion : NetworkBehaviour
 
     public void Attack()
     {
-        
-        foreach(GameObject play in players)
+
+        foreach (GameObject play in players)
         {
-            float distance = Vector3.Distance(this.transform.position, play.transform.position);
+            float distance = Vector3.Distance(minion.transform.position, play.transform.position);
 
             if (distance <= 1.2f)
             {
@@ -53,9 +51,32 @@ public abstract class Minion : NetworkBehaviour
             }
         }
     }
-
-    public void MinionAttack()
+    
+    public GameObject FindClosestEnemy()
     {
-
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("FPSplayer");
+        GameObject closest = null;
+        float distance = Mathf.Infinity;
+        Vector3 position = transform.position;
+        foreach (GameObject go in gos)
+        {
+            Vector3 diff = go.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+            if (curDistance < distance)
+            {
+                closest = go;
+                distance = curDistance;
+            }
+        }
+        return closest;
     }
+    public abstract void MinionAttack();
 }
+
+   
+    
+    
+
+
+
