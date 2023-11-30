@@ -1,80 +1,282 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'da' Physical Memory: 14274 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16286 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2020.3.32f1\Editor\Unity.exe
+Y:\Unity\Unity 2020.3.32f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/mukop/OneDrive/Documents/GitHub/STL1-Destiny42/Destiny42
+Y:/GitHub/School/STL1/STL1-Destiny42/Destiny42
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62809
-Successfully changed project path to: C:/Users/mukop/OneDrive/Documents/GitHub/STL1-Destiny42/Destiny42
-C:/Users/mukop/OneDrive/Documents/GitHub/STL1-Destiny42/Destiny42
+62010
+Successfully changed project path to: Y:/GitHub/School/STL1/STL1-Destiny42/Destiny42
+Y:/GitHub/School/STL1/STL1-Destiny42/Destiny42
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 10979.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.32f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/mukop/OneDrive/Documents/GitHub/STL1-Destiny42/Destiny42/Assets
+[Subsystems] Discovering subsystems at path Y:/Unity/Unity 2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Y:/GitHub/School/STL1/STL1-Destiny42/Destiny42/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) RX Vega 10 Graphics (ID=0x15d8)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   
-    VRAM:     7137 MB
-    Driver:   27.20.1028.1
+    VRAM:     8038 MB
+    Driver:   31.0.15.3758
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Mono path[0] = 'Y:/Unity/Unity 2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'Y:/Unity/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'Y:/Unity/Unity 2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003777 seconds.
+Register platform support module: Y:/Unity/Unity 2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000862 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 168.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.317 seconds
+- Completed reload, in  0.428 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2318ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (428ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1833ms)
-			LoadAssemblies (199ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (323ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (636ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (116ms)
-			SetupLoadedEditorAssemblies (630ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (126ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (169ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011119 seconds.
+Registered in 0.002444 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002E99DAE4C20 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99C1DC010 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Codegen.Cecil.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99C1DC010 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99C77B0B0 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99C12B050 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99DB23040 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Dependencies.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99BF06750 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99C213220 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99C213220 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99D45E020 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99BCD4CE0 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E9782FD2D0 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99C213220 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99BCD4CE0 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99BCD4CE0 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.FishNet.Codegen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99C77B0B0 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\GameKit.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99BCE0CF0 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E9784F0530 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99C77B0B0 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99D47D430 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002E99D33C480 doesn't match image Y:\GitHub\School\STL1\STL1-Destiny42\Destiny42\Library\ScriptAssemblies\FishNet.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2259 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 3.581200 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.050200 ms MarkObjects: 3.156500 ms  DeleteObjects: 0.091700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Reseources
+  artifactKey: Guid(e2e6bf2de5a191a488a98d37c5b0f1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reseources using Guid(e2e6bf2de5a191a488a98d37c5b0f1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925d623ac151138ad3494ee857968af9') in 0.010602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.440102 seconds.
+  path: Assets/Reseources/Prefabs
+  artifactKey: Guid(8da06cd383c868b45b16c13b0b997b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reseources/Prefabs using Guid(8da06cd383c868b45b16c13b0b997b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfa924df460674ac9a867f038f54ec1') in 0.007459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.449579 seconds.
+  path: Assets/Reseources/Prefabs/Hit.prefab
+  artifactKey: Guid(b2506f4a49c495548b2c47c38f66a3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reseources/Prefabs/Hit.prefab using Guid(b2506f4a49c495548b2c47c38f66a3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f41cebe8ead2217e81a2796f03d66d') in 0.636486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.684683 seconds.
+  path: Assets/Reseources/Prefabs/Client.prefab
+  artifactKey: Guid(5d472fb3926460443a4c3473a07522d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reseources/Prefabs/Client.prefab using Guid(5d472fb3926460443a4c3473a07522d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0aef54ca779325661176184e296d44a') in 0.032060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.765870 seconds.
+  path: Assets/Reseources/Prefabs/BossPlayer.prefab
+  artifactKey: Guid(122183e75f9364140acca43f4b62acc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reseources/Prefabs/BossPlayer.prefab using Guid(122183e75f9364140acca43f4b62acc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6467973e15303ce6dc80fb8f733ae36') in 0.024585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.786651 seconds.
+  path: Assets/Resources/Prefabs/BossPlayer.prefab
+  artifactKey: Guid(f83d813af49338a4cbcadb9d903194e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BossPlayer.prefab using Guid(f83d813af49338a4cbcadb9d903194e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8558caf738029cf9f3c5e466f07ed80f') in 0.008844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.036182 seconds.
+  path: Assets/Resources/FlyingMinion.prefab
+  artifactKey: Guid(238ed1b5f3d58744891052394bba2732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FlyingMinion.prefab using Guid(238ed1b5f3d58744891052394bba2732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd131a771e7291a870c3bc811219cd2e') in 0.013298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.935408 seconds.
+  path: Assets/Resources/FPSplayer.prefab
+  artifactKey: Guid(a8dc05482d30dc54382f318552e586c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FPSplayer.prefab using Guid(a8dc05482d30dc54382f318552e586c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52f8c7dc09341569b6696ef71f01dbe') in 0.014026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.251803 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(beef60229a9c1c04daa067152d1bc07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(beef60229a9c1c04daa067152d1bc07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca25e58f52024a60987baba86568dbe') in 0.001895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.934815 seconds.
+  path: Assets/Prefabs/FPSplayer.prefab
+  artifactKey: Guid(1d2964b9cb9004941a768d64c2c1bd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FPSplayer.prefab using Guid(1d2964b9cb9004941a768d64c2c1bd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b988868a4f1d027e9d0e14ba67d5140e') in 0.014443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.580167 seconds.
+  path: Assets/Resources/Prefabs/FPSplayer.prefab
+  artifactKey: Guid(89880fc79c23b404c990c9b9dfc417ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FPSplayer.prefab using Guid(89880fc79c23b404c990c9b9dfc417ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b48858fd885b33fbcd5e6aec45532b6') in 0.008439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.114342 seconds.
+  path: Assets/Resources/Prefabs/Client.prefab
+  artifactKey: Guid(860a4392714b2024ebdaf6dab56f06d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Client.prefab using Guid(860a4392714b2024ebdaf6dab56f06d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95de89ced8b414f368144a2c569b2341') in 0.007282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.148878 seconds.
+  path: Assets/Resources/Prefabs/FireBallShot.prefab
+  artifactKey: Guid(70b4937f96cb6754b8a172c8e16ec0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FireBallShot.prefab using Guid(70b4937f96cb6754b8a172c8e16ec0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee97a753c0d2352314e864a7a986c3a8') in 0.037123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088831 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/fireball.mat
+  artifactKey: Guid(3349fc02d104e2b458470ec533f51c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Materials/fireball.mat using Guid(3349fc02d104e2b458470ec533f51c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8cf662c1aa9e1475d4879a2adb72f2') in 0.036396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.704077 seconds.
+  path: Assets/Resources/Prefabs/GrenadeIndicator.prefab
+  artifactKey: Guid(23d0fdc0c3c9899449ad9412583ec68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/GrenadeIndicator.prefab using Guid(23d0fdc0c3c9899449ad9412583ec68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9503a730569249dc96c76ae14d04d129') in 0.013885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.543330 seconds.
+  path: Assets/Resources/Prefabs/GroundMinion.prefab
+  artifactKey: Guid(f1c92de8b3af8004a9eeb7aa5732c2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/GroundMinion.prefab using Guid(f1c92de8b3af8004a9eeb7aa5732c2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec74587e3f3e0d25d6c81de114ac9f25') in 0.013513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.683192 seconds.
+  path: Assets/Resources/Prefabs/Hit.prefab
+  artifactKey: Guid(c0e5e68cf99966042964c2bcfb89c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Hit.prefab using Guid(c0e5e68cf99966042964c2bcfb89c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c4d98d10979a6ac95cc69032659c1c') in 0.007388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.847507 seconds.
+  path: Assets/Resources/Prefabs/Target.prefab
+  artifactKey: Guid(68a876dace293d0459817829a55c30da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Target.prefab using Guid(68a876dace293d0459817829a55c30da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a5715a94703db5ba32414ab82ca095') in 0.011973 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
