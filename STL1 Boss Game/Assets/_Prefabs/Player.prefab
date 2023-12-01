@@ -103,6 +103,7 @@ MonoBehaviour:
   weaponHitLayer:
     serializedVersion: 2
     m_Bits: 129
+  impactEffect: {fileID: 1337198075554910, guid: 25c7aa9ad705fe143a4d71c1c8deb7d4, type: 3}
 --- !u!1 &3030640079701129521
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +207,7 @@ MonoBehaviour:
   weaponHitLayer:
     serializedVersion: 2
     m_Bits: 129
+  impactEffect: {fileID: 1329845292236604, guid: 9bba9cf244c53c5439505dfc96fdd11c, type: 3}
 --- !u!1 &3302416201457956408
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +713,7 @@ MonoBehaviour:
   weaponHitLayer:
     serializedVersion: 2
     m_Bits: 129
+  impactEffect: {fileID: 1025285306637258, guid: d8f0099df63275647a8bcf646df1ca00, type: 3}
 --- !u!1 &8102784110080836939
 GameObject:
   m_ObjectHideFlags: 0

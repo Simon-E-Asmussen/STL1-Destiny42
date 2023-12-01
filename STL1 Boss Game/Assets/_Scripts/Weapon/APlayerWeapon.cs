@@ -16,6 +16,8 @@ public abstract class APlayerWeapon : NetworkBehaviour
     public LayerMask weaponHitLayer;
     private Transform _cameraTransform;
 
+    public GameObject impactEffect;
+
     private void Awake()
     {
         _cameraTransform = Camera.main.transform;
@@ -36,6 +38,8 @@ public abstract class APlayerWeapon : NetworkBehaviour
             return;
         }
         Debug.Log("Hit Something");
+
+        Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
 
         if (hit.transform.TryGetComponent(out PlayerHealth health))
         {
