@@ -202,7 +202,7 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 4606668101097097285}
   _networkObjectCache: {fileID: 4606668101097097285}
   damage: 10
-  maxRange: 20
+  maxRange: 50
   fireRate: 0.5
   weaponHitLayer:
     serializedVersion: 2
@@ -490,7 +490,7 @@ MonoBehaviour:
   jumpSpeed: 8
   gravity: 20
   lookSpeed: 2
-  lookXLimit: 45
+  lookXLimit: 90
   playerSelfLayer: 7
   canMove: 1
   cameraYOffset: 0.4
@@ -708,7 +708,7 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 4606668101097097285}
   _networkObjectCache: {fileID: 4606668101097097285}
   damage: 20
-  maxRange: 20
+  maxRange: 100
   fireRate: 1
   weaponHitLayer:
     serializedVersion: 2
