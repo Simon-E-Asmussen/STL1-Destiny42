@@ -41,6 +41,10 @@ public class PlayerController : NetworkBehaviour
             {
                 playerWeapon.InitializeWeapons(playerCamera.transform);
             }
+            if (TryGetComponent(out BossWeapon bossWeapon))
+            {
+                bossWeapon.InitializeWeapons(playerCamera.transform);
+            }
 
             gameObject.layer = playerSelfLayer;
             foreach (Transform child in transform)

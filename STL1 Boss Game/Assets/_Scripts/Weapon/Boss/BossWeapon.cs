@@ -18,11 +18,6 @@ public class BossWeapon : NetworkBehaviour
     [SyncVar(Channel = Channel.Unreliable, OnChange = nameof(OnCurrentWeaponIndexChanged))]
     private int _currentWeaponIndex = -1;
 
-    private void Awake()
-    {
-        //_currentWeaponIndex.OnChange += OnCurrentWeaponIndexChanged;
-    }
-
     public override void OnStartClient()
     {
         base.OnStartClient();
@@ -36,9 +31,19 @@ public class BossWeapon : NetworkBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
+            currentWeapon.AOEMarker.SetActive(true);
+            currentWeapon.AOEMarker.GetComponent<AOETrigger>().markerVisible = true;
+            Debug.Log("Marker active");
+        }
+        if (Input.GetKeyUp(KeyCode.Mouse0))
+        {
+            currentWeapon.AOEMarker.GetComponent<AOETrigger>().markerVisible = false;
             FireWeapon();
+            //currentWeapon.AOEMarker.SetActive(false);
+            StartCoroutine(TurnMarkerOff());
+            Debug.Log("Marker disabled");
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -93,5 +98,11 @@ public class BossWeapon : NetworkBehaviour
     private void FireWeapon()
     {
         currentWeapon.Fire();
+    }
+
+    IEnumerator TurnMarkerOff()
+    {
+        yield return new WaitForSeconds(.1f);
+        currentWeapon.AOEMarker.SetActive(false);
     }
 }

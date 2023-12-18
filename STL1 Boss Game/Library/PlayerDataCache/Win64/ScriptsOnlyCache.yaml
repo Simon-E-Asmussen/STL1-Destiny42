@@ -1,6 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AOETrigger
+    - BossAxe
+    - BossWeapon
     - CharacterSelection
     - GameUIManager
     - PlayerController
@@ -102,89 +105,95 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 1644}
+      Script: {instanceID: 1534}
     - Class: 114
-      Script: {instanceID: 1668}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1864}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1898}
+      Script: {instanceID: 1850}
     - Class: 114
-      Script: {instanceID: 1992}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 2028}
+      Script: {instanceID: 1980}
     - Class: 114
-      Script: {instanceID: 2128}
+      Script: {instanceID: 2080}
     - Class: 114
-      Script: {instanceID: 2340}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 2336}
     - Class: 114
-      Script: {instanceID: 2394}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2398}
+      Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 2554}
+      Script: {instanceID: 2506}
     - Class: 114
-      Script: {instanceID: 2828}
+      Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 2992}
+      Script: {instanceID: 2806}
     - Class: 114
-      Script: {instanceID: 2998}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 3174}
+      Script: {instanceID: 2952}
     - Class: 114
-      Script: {instanceID: 3202}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3324}
+      Script: {instanceID: 3156}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 3424}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3378}
     - Class: 114
-      Script: {instanceID: 3502}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 3604}
+      Script: {instanceID: 3456}
     - Class: 114
-      Script: {instanceID: 3620}
+      Script: {instanceID: 3558}
     - Class: 114
-      Script: {instanceID: 3622}
+      Script: {instanceID: 3574}
     - Class: 114
-      Script: {instanceID: 3638}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 3646}
+      Script: {instanceID: 3592}
     - Class: 114
-      Script: {instanceID: 3920}
+      Script: {instanceID: 3600}
     - Class: 114
-      Script: {instanceID: 3948}
+      Script: {instanceID: 3874}
     - Class: 114
-      Script: {instanceID: 3964}
+      Script: {instanceID: 3902}
     - Class: 114
-      Script: {instanceID: 4672}
+      Script: {instanceID: 3918}
     - Class: 114
-      Script: {instanceID: 4786}
+      Script: {instanceID: 4034}
     - Class: 114
-      Script: {instanceID: 4790}
+      Script: {instanceID: 4628}
     - Class: 114
-      Script: {instanceID: 4906}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 4954}
+      Script: {instanceID: 4746}
     - Class: 114
-      Script: {instanceID: 5038}
+      Script: {instanceID: 4862}
     - Class: 114
-      Script: {instanceID: 5360}
+      Script: {instanceID: 4910}
     - Class: 114
-      Script: {instanceID: 5568}
+      Script: {instanceID: 4994}
     - Class: 114
-      Script: {instanceID: 5750}
+      Script: {instanceID: 5316}
     - Class: 114
-      Script: {instanceID: 5772}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 5852}
+      Script: {instanceID: 5708}
     - Class: 114
-      Script: {instanceID: 5916}
+      Script: {instanceID: 5730}
+    - Class: 114
+      Script: {instanceID: 5810}
+    - Class: 114
+      Script: {instanceID: 5874}
+    - Class: 114
+      Script: {instanceID: 49186}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -234,6 +243,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
   - hash:
       serializedVersion: 2
       Hash: 3a9364daafe1669736c0684ac2f253c7
@@ -306,12 +321,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
-  - hash:
-      serializedVersion: 2
-      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
   - hash:
       serializedVersion: 2
       Hash: bb1f0eabf586c59f439d232ff8a83b3b
@@ -552,6 +561,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ProximityActivate
+  - hash:
+      serializedVersion: 2
+      Hash: 29d7c09bf90297f9608fd04ae560330d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BossAxe
   - hash:
       serializedVersion: 2
       Hash: d5452ab7d851af4678137091847eff2c
@@ -912,6 +927,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: bf257ce1df3cc4e360646ee0d4e6ebf4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BossWeapon
   - hash:
       serializedVersion: 2
       Hash: 531436fb853c3448d07c3cf4c928bc23
@@ -1422,6 +1443,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 1db5386d8a43127148ce40f71f8e89e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AOETrigger
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

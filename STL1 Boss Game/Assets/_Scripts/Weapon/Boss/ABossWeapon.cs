@@ -8,7 +8,7 @@ public abstract class ABossWeapon : NetworkBehaviour
 {
     public int damage;
 
-    public float maxRange = 20f;
+    //public float maxRange = 20f;
     public float fireRate = 0.5f;
 
     private float _lastTimeFire;
@@ -16,11 +16,14 @@ public abstract class ABossWeapon : NetworkBehaviour
     public LayerMask weaponHitLayer;
     private Transform _cameraTransform;
 
-    public GameObject impactEffect;
+    //public GameObject impactEffect;
+    public GameObject AOEMarker;
 
     private void Awake()
     {
         _cameraTransform = Camera.main.transform;
+        //AOEMarker.GetComponent<Collider>().enabled = false;
+        AOEMarker.SetActive(false);
     }
 
     public void Fire()
@@ -31,20 +34,11 @@ public abstract class ABossWeapon : NetworkBehaviour
         }
         
         _lastTimeFire = Time.time;
+
         
-        if (!Physics.Raycast(_cameraTransform.position, _cameraTransform.forward, out RaycastHit hit, maxRange, weaponHitLayer))
-        {
-            Debug.Log("Hit Nothing");
-            return;
-        }
-        Debug.Log("Hit Something");
-
-        Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-
-        if (hit.transform.TryGetComponent(out PlayerHealth health))
-        {
-            health.TakeDamage(damage);
-        }
+        AOEMarker.GetComponent<AOETrigger>().canDamage = true;
+        
+        Debug.Log("Uses an attack");
     }
 
     public abstract void AnimateWeapon();
