@@ -169,31 +169,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4034}
     - Class: 114
-      Script: {instanceID: 4628}
+      Script: {instanceID: 4052}
     - Class: 114
-      Script: {instanceID: 4742}
+      Script: {instanceID: 4630}
     - Class: 114
-      Script: {instanceID: 4746}
+      Script: {instanceID: 4744}
     - Class: 114
-      Script: {instanceID: 4862}
+      Script: {instanceID: 4748}
     - Class: 114
-      Script: {instanceID: 4910}
+      Script: {instanceID: 4864}
     - Class: 114
-      Script: {instanceID: 4994}
+      Script: {instanceID: 4912}
     - Class: 114
-      Script: {instanceID: 5316}
+      Script: {instanceID: 4996}
     - Class: 114
-      Script: {instanceID: 5524}
+      Script: {instanceID: 5318}
     - Class: 114
-      Script: {instanceID: 5708}
+      Script: {instanceID: 5526}
     - Class: 114
-      Script: {instanceID: 5730}
+      Script: {instanceID: 5710}
     - Class: 114
-      Script: {instanceID: 5810}
+      Script: {instanceID: 5732}
     - Class: 114
-      Script: {instanceID: 5874}
+      Script: {instanceID: 5812}
     - Class: 114
-      Script: {instanceID: 49186}
+      Script: {instanceID: 5876}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -935,6 +935,12 @@ ScriptsOnlyBuild:
     className: BossWeapon
   - hash:
       serializedVersion: 2
+      Hash: 43dbfc9b023e9507db509be4f1cbf7db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AOETrigger
+  - hash:
+      serializedVersion: 2
       Hash: 531436fb853c3448d07c3cf4c928bc23
     assemblyName: FishNet.Runtime.dll
     namespaceName: FishNet.Component.Utility
@@ -1443,12 +1449,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
-  - hash:
-      serializedVersion: 2
-      Hash: 1db5386d8a43127148ce40f71f8e89e3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AOETrigger
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

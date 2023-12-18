@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using FishNet.Object;
 using UnityEngine;
 
-public class AOETrigger : MonoBehaviour
+public class AOETrigger : NetworkBehaviour
 {
     public bool canDamage = false;
     public bool markerVisible = false;
