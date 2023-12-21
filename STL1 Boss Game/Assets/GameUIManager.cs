@@ -25,6 +25,6 @@ public class GameUIManager : MonoBehaviour
     public static void SetHealthText(int health, Slider healthbar, Slider easeHealthBar)
     {
         healthbar.value = health;
-        easeHealthBar.value = Mathf.Lerp(easeHealthBar.value, health, 0.01f);
+        easeHealthBar.value = health;
     }
 }
