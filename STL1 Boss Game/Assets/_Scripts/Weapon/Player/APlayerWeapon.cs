@@ -45,6 +45,10 @@ public abstract class APlayerWeapon : NetworkBehaviour
         {
             health.TakeDamage(damage);
         }
+        if (hit.transform.TryGetComponent(out Minion healthMinion))
+        {
+            healthMinion.TakeDamage(damage);
+        }
     }
 
     public abstract void AnimateWeapon();

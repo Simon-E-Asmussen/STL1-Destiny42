@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         geneticAlgorithm = new GeneticAlgorithm();
-        geneticAlgorithm.InitializePopulation(10); // Adjust population size as needed
+        geneticAlgorithm.InitializePopulation(5); // Adjust population size as needed
     }
 
     void Update()

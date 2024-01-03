@@ -5,6 +5,7 @@ using UnityEngine;
 public class GeneticAlgorithm : MonoBehaviour
 {
     
+    public string minionPrefabPath = "Minion"; // Example path
     public List<Minion> population;
 
     public void InitializePopulation(int populationSize)
@@ -13,11 +14,45 @@ public class GeneticAlgorithm : MonoBehaviour
 
         for (int i = 0; i < populationSize; i++)
         {
-            Minion minion = new Minion();
-            minion.Initialize(Random.Range(50f, 100f), Random.Range(10, 20));
+            // Load Minion prefab from Resources folder
+            GameObject minionObject = InstantiateMinionPrefab(minionPrefabPath);
+
+            // Get Minion component from the instantiated object
+            Minion minion = minionObject.GetComponent<Minion>();
+
+            // Initialize minion attributes randomly or using some logic
+            minion.Initialize(Random.Range(50, 100), Random.Range(10, 20));
+
+            // Add the instantiated Minion to the population
             population.Add(minion);
         }
-        Debug.Log(population);
+    }
+    
+    private GameObject InstantiateMinionPrefab(string path)
+    {
+        // Load Minion prefab from Resources folder
+        GameObject minionPrefab = Resources.Load<GameObject>(path);
+
+        if (minionPrefab == null)
+        {
+            Debug.LogError("Minion prefab not found at path: " + path);
+            return null;
+        }
+
+        // Instantiate Minion prefab
+        GameObject minionObject = Instantiate(minionPrefab, RandomSpawnPosition(), Quaternion.identity);
+
+        // Ensure the spawned Minion is active
+        minionObject.SetActive(true);
+
+        return minionObject;
+    }
+    
+    private Vector3 RandomSpawnPosition()
+    {
+        // Spawn close to 0,0,0 within a specified range
+        float spawnRange = 5f;
+        return new Vector3(Random.Range(-spawnRange, spawnRange), 2.6f, Random.Range(-spawnRange, spawnRange));
     }
 
     public void EvolvePopulation()
@@ -63,7 +98,7 @@ public class GeneticAlgorithm : MonoBehaviour
         // This could involve mixing attributes of parent1 and parent2
         // For simplicity, just creating a child with random attributes in this example
         Minion child = new Minion();
-        child.Initialize(Random.Range(50f, 100f), Random.Range(10, 20));
+        child.Initialize(Random.Range(50, 100), Random.Range(10, 20));
         return child;
     }
 
@@ -72,7 +107,7 @@ public class GeneticAlgorithm : MonoBehaviour
         // Implement your mutation logic here
         // This could involve randomly changing some attributes of the minion
         // For simplicity, just adding/subtracting a small random value in this example
-        minion.health += Random.Range(-5f, 5f);
+        minion.health += Random.Range(-5, 5);
         minion.damage += Random.Range(-2, 2);
     }
     

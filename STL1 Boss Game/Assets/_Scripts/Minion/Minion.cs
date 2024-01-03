@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine;
 public class Minion : MonoBehaviour
 {
     // Minion attributes
-    public float health;
+    public int health;
     public int damage;
 
     // Array to store all player objects
@@ -20,9 +21,15 @@ public class Minion : MonoBehaviour
     
     // stats
     public int damageDone;
-    
+
+    private void Awake()
+    {
+        this.gameObject.SetActive(true);
+    }
+
     void Start()
     {
+        gameObject.SetActive(true);
         // Find all player objects in the scene
         players = GameObject.FindGameObjectsWithTag("Player");
 
@@ -63,8 +70,21 @@ public class Minion : MonoBehaviour
         }
     }
 
+    public void TakeDamage(int damage)
+    {
+        // Decrease the health variable
+        health -= damage;
+
+        // Check if the minion is destroyed
+        if (health <= 0)
+        {
+            // Perform any additional actions when the minion is destroyed
+            Destroy(gameObject);
+        }
+    }
+
     // Method to initialize the minion with specific attributes
-    public void Initialize(float initialHealth, int initialDamage)
+    public void Initialize(int initialHealth, int initialDamage)
     {
         health = initialHealth;
         damage = initialDamage;

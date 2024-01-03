@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 17
+  controlID: 125
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 118
+  controlID: 22
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 119
+  controlID: 23
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 444
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -430,9 +430,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.1446671, y: 2.4472523, z: -1.6389358}
+    m_Target: {x: 7.09482, y: 8.349587, z: -4.383649}
     speed: 2
-    m_Value: {x: -1.1446671, y: 2.4472523, z: -1.6389358}
+    m_Value: {x: 7.09482, y: 8.349587, z: -4.383649}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -479,13 +479,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.19314343, y: 0.7938596, z: -0.3193814, w: 0.48007992}
+    m_Target: {x: 0.07379473, y: 0.8623142, z: -0.13164952, w: 0.4833612}
     speed: 2
-    m_Value: {x: 0.19314355, y: 0.79386014, z: -0.3193816, w: 0.48008025}
+    m_Value: {x: 0.073794685, y: 0.8623137, z: -0.13164945, w: 0.48336092}
   m_Size:
-    m_Target: 1.7880119
+    m_Target: 23.901705
     speed: 2
-    m_Value: 1.7880119
+    m_Value: 23.901705
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -540,21 +540,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 005effff225effffb85fffff4666ffff6866ffff6a66ffffce66fffff066ffff8868ffffb4bbffffd6bbffff6ebdffff68edffff42fbffffe6450000e8920000
+      m_ExpandedIDs: 66ccffff827f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Minion
-        m_OriginalName: Minion
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 37608
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -602,23 +602,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Prefabs
+    - Assets/Resources
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_Prefabs
+  - Assets/Resources
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\mathi\Documents\SDU\7. Semester\Social Technology Lab\Boss
     Game\STL1-Destiny42\STL1 Boss Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 15}
-    m_SelectedIDs: d6490000
-    m_LastClickedID: 18902
-    m_ExpandedIDs: 00000000d4490000d6490000d84900001e4a000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 848b0000
+    m_LastClickedID: 35716
+    m_ExpandedIDs: 00000000d2800000d4800000d68000008c8b0000908b0000928b0000948b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -646,7 +646,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4490000d6490000d8490000
+    m_ExpandedIDs: 00000000d2800000d4800000d6800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -677,18 +677,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300002c4400009e450000be45000090460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Boss
-      m_OriginalName: Boss
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 18080
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
