@@ -5,7 +5,9 @@ ScriptsOnlyBuild:
     - BossAxe
     - BossWeapon
     - CharacterSelection
+    - GameManager
     - GameUIManager
+    - Minion
     - PlayerController
     - PlayerDMR
     - PlayerHealth
@@ -99,101 +101,105 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 7548}
+      Script: {instanceID: 1528}
     - Class: 114
-      Script: {instanceID: 7552}
+      Script: {instanceID: 1530}
     - Class: 114
-      Script: {instanceID: 7574}
+      Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 7768}
+      Script: {instanceID: 1534}
     - Class: 114
-      Script: {instanceID: 7802}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 7890}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 7924}
+      Script: {instanceID: 1850}
     - Class: 114
-      Script: {instanceID: 8024}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 8232}
+      Script: {instanceID: 1980}
     - Class: 114
-      Script: {instanceID: 8276}
+      Script: {instanceID: 2080}
     - Class: 114
-      Script: {instanceID: 8284}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 8288}
+      Script: {instanceID: 2336}
     - Class: 114
-      Script: {instanceID: 8290}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 8444}
+      Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 8712}
+      Script: {instanceID: 2506}
     - Class: 114
-      Script: {instanceID: 8738}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 8876}
+      Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 8882}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 9050}
+      Script: {instanceID: 2954}
     - Class: 114
-      Script: {instanceID: 9078}
+      Script: {instanceID: 3130}
     - Class: 114
-      Script: {instanceID: 9108}
+      Script: {instanceID: 3158}
     - Class: 114
-      Script: {instanceID: 9202}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 9286}
+      Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 9302}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 9344}
+      Script: {instanceID: 3422}
     - Class: 114
-      Script: {instanceID: 9380}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 9482}
+      Script: {instanceID: 3560}
     - Class: 114
-      Script: {instanceID: 9498}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 9500}
+      Script: {instanceID: 3578}
     - Class: 114
-      Script: {instanceID: 9516}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 9524}
+      Script: {instanceID: 3602}
     - Class: 114
-      Script: {instanceID: 9798}
+      Script: {instanceID: 3608}
     - Class: 114
-      Script: {instanceID: 9826}
+      Script: {instanceID: 3878}
     - Class: 114
-      Script: {instanceID: 9842}
+      Script: {instanceID: 3906}
     - Class: 114
-      Script: {instanceID: 9958}
+      Script: {instanceID: 3922}
     - Class: 114
-      Script: {instanceID: 9976}
+      Script: {instanceID: 4038}
     - Class: 114
-      Script: {instanceID: 10552}
+      Script: {instanceID: 4056}
     - Class: 114
-      Script: {instanceID: 10666}
+      Script: {instanceID: 4634}
     - Class: 114
-      Script: {instanceID: 10670}
+      Script: {instanceID: 4748}
     - Class: 114
-      Script: {instanceID: 10778}
+      Script: {instanceID: 4752}
     - Class: 114
-      Script: {instanceID: 10826}
+      Script: {instanceID: 4868}
     - Class: 114
-      Script: {instanceID: 10910}
+      Script: {instanceID: 4916}
     - Class: 114
-      Script: {instanceID: 11230}
+      Script: {instanceID: 5000}
     - Class: 114
-      Script: {instanceID: 11436}
+      Script: {instanceID: 5208}
     - Class: 114
-      Script: {instanceID: 11618}
+      Script: {instanceID: 5324}
     - Class: 114
-      Script: {instanceID: 11640}
+      Script: {instanceID: 5532}
     - Class: 114
-      Script: {instanceID: 11720}
+      Script: {instanceID: 5716}
     - Class: 114
-      Script: {instanceID: 11784}
+      Script: {instanceID: 5738}
+    - Class: 114
+      Script: {instanceID: 5818}
+    - Class: 114
+      Script: {instanceID: 5882}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -227,6 +233,30 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
       Hash: 3a9364daafe1669736c0684ac2f253c7
     assemblyName: FishNet.Demos.dll
     namespaceName: FishNet.Example.ColliderRollbacks
@@ -243,12 +273,6 @@ ScriptsOnlyBuild:
     assemblyName: FishNet.Demos.dll
     namespaceName: FishNet.Example.Prediction.Rigidbodies
     className: RigidbodyPrediction
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
   - hash:
       serializedVersion: 2
       Hash: 149f5a541f3fab006d2f5920b83b013d
@@ -305,12 +329,6 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
-  - hash:
-      serializedVersion: 2
       Hash: bb1f0eabf586c59f439d232ff8a83b3b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -359,7 +377,7 @@ ScriptsOnlyBuild:
     className: Vignette
   - hash:
       serializedVersion: 2
-      Hash: 18fe381b6960cf3e17d04518630cd99e
+      Hash: 8896911e135fb7ecb99ae7eefe435d3b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerHealth
@@ -449,12 +467,6 @@ ScriptsOnlyBuild:
     className: RigidbodyPredictionV2
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: FishNet.Runtime.dll
     namespaceName: FishNet.Managing.Server.Editing
@@ -495,6 +507,12 @@ ScriptsOnlyBuild:
     assemblyName: FishNet.Demos.dll
     namespaceName: FishNet.Example.ColliderRollbacks
     className: DestroyAfterDelay
+  - hash:
+      serializedVersion: 2
+      Hash: 8cbafed0efffb2ee39250c798c4b1f1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GeneticAlgorithm
   - hash:
       serializedVersion: 2
       Hash: 2ca0319bc4419591a8f8b6c05fd1d68a
@@ -651,12 +669,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -819,6 +831,12 @@ ScriptsOnlyBuild:
     assemblyName: FishNet.Runtime.dll
     namespaceName: FishNet.Managing.Observing
     className: ObserverManager
+  - hash:
+      serializedVersion: 2
+      Hash: dbba67fcbd65f08207171c217f01bcf6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Minion
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -1253,6 +1271,12 @@ ScriptsOnlyBuild:
     className: ColliderRollbackEditor
   - hash:
       serializedVersion: 2
+      Hash: 6c4dcb95460c3310e8aa312a267123b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1452,5 +1476,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/mathi/Desktop/SDU/7. Semester/Social Technology Lab/Builds/STL1
-    Boss Game.exe
+  playerPath: C:/Users/mathi/Documents/SDU/7. Semester/Social Technology Lab/Builds/Build
+    da game/STL1 Boss Game.exe

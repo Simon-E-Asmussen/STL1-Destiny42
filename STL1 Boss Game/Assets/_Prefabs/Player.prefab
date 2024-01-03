@@ -407,7 +407,7 @@ GameObject:
   - component: {fileID: 5581357417579339492}
   m_Layer: 7
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -595,6 +595,7 @@ MonoBehaviour:
   _networkObjectCache: {fileID: 4606668101097097285}
   maxHealth: 100
   healthslider: {fileID: 8102784110899285729}
+  easeHealthSlider: {fileID: 8102784110080836937}
 --- !u!136 &5581357417579339492
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -729,7 +730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8102784110080836936
 RectTransform:
   m_ObjectHideFlags: 0
@@ -910,7 +911,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

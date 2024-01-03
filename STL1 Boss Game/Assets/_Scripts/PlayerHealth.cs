@@ -35,6 +35,7 @@ public class PlayerHealth : NetworkBehaviour
     [ServerRpc(RequireOwnership = false)]
     public void TakeDamage(int damage)
     {
+        Debug.Log($"Old Player Health: {_currentHealth}");
         _currentHealth -= damage;
         
         if (_currentHealth <= 0)
