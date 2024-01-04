@@ -32,7 +32,7 @@ public class Minion : MonoBehaviour
 
     private void Awake()
     {
-        this.gameObject.SetActive(true);
+        gameObject.SetActive(true);
     }
 
     void Start()
@@ -47,20 +47,19 @@ public class Minion : MonoBehaviour
         
         if (players.Length == 0)
         {
-            Debug.LogError("No players found! Make sure players have the appropriate tag.");
+            Debug.LogError("No players found");
         }
     }
 
     void Update()
     {
         timeSurvived = Time.time - timeSpawned;
-        Debug.Log("Time Survived: " + timeSurvived);
-        
+
         players = GameObject.FindGameObjectsWithTag("Player");
 
         if (players.Length == 0)
         {
-            Debug.LogError("No players found! Make sure players have the appropriate tag.");
+            Debug.LogError("No players found");
         }
         // Move towards the closest player
         MoveTowardsClosestPlayer();
@@ -85,16 +84,14 @@ public class Minion : MonoBehaviour
         }
     }
 
+    // Method for when the minion takes damage
     public void TakeDamage(int damage)
     {
-        // Decrease the health variable
         health -= damage;
-
-        // Check if the minion is destroyed
+        
         if (health <= 0)
         {
             timeSurvived -= timeSurvived - Time.time;
-            // Perform any additional actions when the minion is destroyed
             Destroy(gameObject);
         }
     }
@@ -104,7 +101,8 @@ public class Minion : MonoBehaviour
     {
         health = initialHealth;
         damage = initialDamage;
-        // Add other attribute initializations
+        movementSpeed = initialMovementSpeed;
+        rotationSpeed = initialRotationSpeed;
     }
 
     // Method to make the minion move towards the closest player

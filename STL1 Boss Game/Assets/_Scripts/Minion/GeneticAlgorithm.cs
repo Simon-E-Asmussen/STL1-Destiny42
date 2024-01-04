@@ -199,5 +199,4 @@ public class GeneticAlgorithm : MonoBehaviour
             minion.rotationSpeed += Random.Range(-0.5f, 0.5f);
         }
     }
-    
 }
