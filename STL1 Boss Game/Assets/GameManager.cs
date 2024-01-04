@@ -19,5 +19,10 @@ public class GameManager : MonoBehaviour
             geneticAlgorithm.EvolvePopulation();
             // Update the game with the evolved population
         }
+
+        if (!GameObject.Find("Minion(Clone)"))
+        {
+            geneticAlgorithm.EvolvePopulation();
+        }
     }
 }

@@ -19,8 +19,16 @@ public class Minion : MonoBehaviour
     public float damageCooldown = 1f; // Time between each damage instance
     private float lastDamageTime; // Time when the last damage was dealt
     
-    // stats
-    public int damageDone;
+    
+    
+    // Stats
+    public int startingHealth; // Starting HP
+    public int healthLost; // Health lost before next wave
+    
+    public int damageDone; // Damage done before next wave
+
+    public float timeSpawned; // Time when minion was spawned
+    public float timeSurvived; // Time survived before next wave
 
     private void Awake()
     {
@@ -29,10 +37,14 @@ public class Minion : MonoBehaviour
 
     void Start()
     {
+        //stats
+        startingHealth = health;
+        timeSpawned = Time.time;
+        
         gameObject.SetActive(true);
         // Find all player objects in the scene
         players = GameObject.FindGameObjectsWithTag("Player");
-
+        
         if (players.Length == 0)
         {
             Debug.LogError("No players found! Make sure players have the appropriate tag.");
@@ -41,6 +53,9 @@ public class Minion : MonoBehaviour
 
     void Update()
     {
+        timeSurvived = timeSpawned - Time.time;
+        Debug.Log("Time Survived: " + timeSurvived);
+        
         players = GameObject.FindGameObjectsWithTag("Player");
 
         if (players.Length == 0)
@@ -78,13 +93,14 @@ public class Minion : MonoBehaviour
         // Check if the minion is destroyed
         if (health <= 0)
         {
+            timeSurvived -= timeSurvived - Time.time;
             // Perform any additional actions when the minion is destroyed
             Destroy(gameObject);
         }
     }
 
     // Method to initialize the minion with specific attributes
-    public void Initialize(int initialHealth, int initialDamage)
+    public void Initialize(int initialHealth, int initialDamage, float initialMovementSpeed, float initialRotationSpeed)
     {
         health = initialHealth;
         damage = initialDamage;

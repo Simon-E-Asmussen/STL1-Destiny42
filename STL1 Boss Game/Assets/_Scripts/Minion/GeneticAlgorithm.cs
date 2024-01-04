@@ -21,7 +21,7 @@ public class GeneticAlgorithm : MonoBehaviour
             Minion minion = minionObject.GetComponent<Minion>();
 
             // Initialize minion attributes randomly or using some logic
-            minion.Initialize(Random.Range(50, 100), Random.Range(10, 20));
+            minion.Initialize(Random.Range(10, 30), Random.Range(10, 30), Random.Range(4f, 6f), Random.Range(3f, 6f));
 
             // Add the instantiated Minion to the population
             population.Add(minion);
@@ -60,7 +60,7 @@ public class GeneticAlgorithm : MonoBehaviour
         List<Minion> newPopulation = new List<Minion>();
 
         // Selection: Choose individuals from the current population based on fitness
-        List<Minion> selectedMinions = SelectMinions();
+        List<Minion> selectedMinions = SelectBestFitMinions(population);
 
         // Crossover: Combine attributes of selected individuals to create new minions
         for (int i = 0; i < population.Count; i++)
@@ -77,28 +77,71 @@ public class GeneticAlgorithm : MonoBehaviour
         for (int i = 0; i < newPopulation.Count; i++)
         {
             Mutate(newPopulation[i]);
+            Debug.Log("Mutates the children");
         }
 
         // Update the population with the new one
         population = newPopulation;
-        Debug.Log(population);
+        Debug.Log("Mutated population: " + population);
     }
 
-    private List<Minion> SelectMinions()
+    private List<Minion> SelectBestFitMinions(List<Minion> minions)
     {
-        // Implement your selection logic here
-        // This could be based on fitness, tournament selection, etc.
-        // For simplicity, just returning the entire population in this example
-        return new List<Minion>(population);
+        // Sort minions based on a custom fitness score (health + damage dealt + survival time)
+        minions.Sort((minion1, minion2) =>
+        {
+            float score1 = CalculateMinionFitness(minion1);
+            float score2 = CalculateMinionFitness(minion2);
+
+            // Sort in descending order
+            return score2.CompareTo(score1);
+        });
+
+        // Select the two best-fit minions
+        List<Minion> bestFitMinions = new List<Minion>();
+        if (minions.Count > 0)
+        {
+            bestFitMinions.Add(minions[0]);
+
+            if (minions.Count > 1)
+            {
+                bestFitMinions.Add(minions[1]);
+            }
+        }
+
+        return bestFitMinions;
+    }
+    
+    private float CalculateMinionFitness(Minion minion)
+    {
+        // Customize this formula based on your fitness criteria
+        // For example, fitness = remaining health + damage dealt + survival time
+        float fitness = minion.healthLost + minion.damageDone + (Time.time - minion.timeSurvived);
+
+        return fitness;
     }
 
-    private Minion Crossover(Minion parent1, Minion parent2)
+    public Minion Crossover(Minion parent1, Minion parent2)
     {
-        // Implement your crossover logic here
-        // This could involve mixing attributes of parent1 and parent2
-        // For simplicity, just creating a child with random attributes in this example
-        Minion child = new Minion();
-        child.Initialize(Random.Range(50, 100), Random.Range(10, 20));
+        // Create a new child minion
+        Minion child = CreateChildMinion(parent1, parent2);
+        return child;
+    }
+
+    private Minion CreateChildMinion(Minion parent1, Minion parent2)
+    {
+        // Compute child values (for example, taking the average)
+        int childHealth = (parent1.health + parent2.health) / 2;
+        int childDamage = (parent1.damage + parent2.damage) / 2;
+        float childMovement = (parent1.movementSpeed + parent2.movementSpeed) / 2f;
+        float childRotation = (parent1.rotationSpeed + parent2.rotationSpeed) / 2f;
+
+        // Instantiate and initialize the child minion
+        GameObject childObject = InstantiateMinionPrefab("Minion"); // Adjust the prefab path
+        Minion child = childObject.GetComponent<Minion>();
+        child.Initialize(childHealth, childDamage, childMovement, childRotation);
+        Debug.Log("Instantiate and initialize the child minion");
+
         return child;
     }
 
@@ -107,8 +150,10 @@ public class GeneticAlgorithm : MonoBehaviour
         // Implement your mutation logic here
         // This could involve randomly changing some attributes of the minion
         // For simplicity, just adding/subtracting a small random value in this example
-        minion.health += Random.Range(-5, 5);
+        minion.health += Random.Range(-2, 2);
         minion.damage += Random.Range(-2, 2);
+        minion.movementSpeed += Random.Range(-0.5f, 1f);
+        minion.rotationSpeed += Random.Range(-0.5f, 0.5f);
     }
     
 }
