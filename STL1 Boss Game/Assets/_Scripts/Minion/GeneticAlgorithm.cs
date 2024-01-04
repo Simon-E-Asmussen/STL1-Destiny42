@@ -116,7 +116,15 @@ public class GeneticAlgorithm : MonoBehaviour
     {
         // Customize this formula based on your fitness criteria
         // For example, fitness = remaining health + damage dealt + survival time
-        float fitness = minion.healthLost + minion.damageDone + (Time.time - minion.timeSurvived);
+        // Customize the weights based on the importance of each factor
+        float healthWeight = 0.1f;
+        float damageWeight = 1f;
+        float timeWeight = 0.3f;
+
+        // Calculate the fitness score using a weighted sum
+        float fitness = (healthWeight * minion.healthLost) + (damageWeight * minion.damageDone) + (timeWeight * minion.timeSurvived);
+        
+        //float fitness = minion.healthLost + minion.damageDone + (Time.time - minion.timeSurvived);
 
         return fitness;
     }
@@ -131,7 +139,7 @@ public class GeneticAlgorithm : MonoBehaviour
     private Minion CreateChildMinion(Minion parent1, Minion parent2)
     {
         // Compute child values (for example, taking the average)
-        int childHealth = (parent1.health + parent2.health) / 2;
+        int childHealth = (parent1.startingHealth + parent2.startingHealth) / 2;
         int childDamage = (parent1.damage + parent2.damage) / 2;
         float childMovement = (parent1.movementSpeed + parent2.movementSpeed) / 2f;
         float childRotation = (parent1.rotationSpeed + parent2.rotationSpeed) / 2f;
@@ -147,13 +155,49 @@ public class GeneticAlgorithm : MonoBehaviour
 
     private void Mutate(Minion minion)
     {
-        // Implement your mutation logic here
-        // This could involve randomly changing some attributes of the minion
-        // For simplicity, just adding/subtracting a small random value in this example
-        minion.health += Random.Range(-2, 2);
-        minion.damage += Random.Range(-2, 2);
-        minion.movementSpeed += Random.Range(-0.5f, 1f);
-        minion.rotationSpeed += Random.Range(-0.5f, 0.5f);
+        // Logic for mutating health
+        if (minion.health <= 20)
+        {
+            minion.health += Random.Range(0, 2);
+        }
+        else
+        {
+            minion.health += Random.Range(-2, 2);
+        }
+        
+        // Logic for mutating damage
+        if (minion.damage <= 20)
+        {
+            minion.damage += Random.Range(0, 2);
+        }
+        else
+        {
+            minion.damage += Random.Range(-2, 2);
+        }
+        
+        // Logic for mutating movement speed
+        if (minion.movementSpeed <= 2)
+        {
+            minion.movementSpeed += Random.Range(0, 1f);
+        }
+        else if (minion.movementSpeed >= 11)
+        {
+            minion.movementSpeed += Random.Range(-2f, 0.5f);
+        }
+        else
+        {
+            minion.movementSpeed += Random.Range(-1f, 2f);
+        }
+        
+        // Logic for mutating minion rotation speed
+        if (minion.rotationSpeed <= 3)
+        {
+            minion.rotationSpeed += Random.Range(0, 0.5f);
+        }
+        else
+        {
+            minion.rotationSpeed += Random.Range(-0.5f, 0.5f);
+        }
     }
     
 }

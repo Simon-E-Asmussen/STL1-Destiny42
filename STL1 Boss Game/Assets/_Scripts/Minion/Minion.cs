@@ -53,7 +53,7 @@ public class Minion : MonoBehaviour
 
     void Update()
     {
-        timeSurvived = timeSpawned - Time.time;
+        timeSurvived = Time.time - timeSpawned;
         Debug.Log("Time Survived: " + timeSurvived);
         
         players = GameObject.FindGameObjectsWithTag("Player");
