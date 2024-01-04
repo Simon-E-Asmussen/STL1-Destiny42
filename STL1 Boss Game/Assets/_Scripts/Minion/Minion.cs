@@ -8,19 +8,15 @@ public class Minion : MonoBehaviour
     // Minion attributes
     public int health;
     public int damage;
+    public float movementSpeed = 5f;
+    public float rotationSpeed = 5f;
 
     // Array to store all player objects
     private GameObject[] players;
-
-    // Speed at which the minion moves towards the player
-    public float movementSpeed = 5f;
-    public float rotationSpeed = 5f;
     
     public float damageCooldown = 1f; // Time between each damage instance
     private float lastDamageTime; // Time when the last damage was dealt
-    
-    
-    
+
     // Stats
     public int startingHealth; // Starting HP
     public int healthLost; // Health lost before next wave
@@ -105,7 +101,7 @@ public class Minion : MonoBehaviour
         rotationSpeed = initialRotationSpeed;
     }
 
-    // Method to make the minion move towards the closest player
+    // Method to make the minion move towards the closest player    
     private void MoveTowardsClosestPlayer()
     {
         if (players.Length > 0)
@@ -122,11 +118,11 @@ public class Minion : MonoBehaviour
                 // Normalize the direction vector
                 direction.Normalize();
 
-                // Rotate towards the closest player (optional)
+                // Rotate towards the closest player
                 Quaternion toRotation = Quaternion.LookRotation(direction);
                 transform.rotation = Quaternion.Lerp(transform.rotation, toRotation, Time.deltaTime * rotationSpeed);
 
-                // Move towards the closest player using Transform.position
+                // Move towards the closest player 
                 transform.position += direction * movementSpeed * Time.deltaTime;
             }
         }

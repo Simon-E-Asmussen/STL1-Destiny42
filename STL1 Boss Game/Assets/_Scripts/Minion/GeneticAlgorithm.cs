@@ -5,7 +5,7 @@ using UnityEngine;
 public class GeneticAlgorithm : MonoBehaviour
 {
     
-    public string minionPrefabPath = "Minion"; // Example path
+    public string minionPrefabPath = "Minion";
     public List<Minion> population;
 
     public void InitializePopulation(int populationSize)
@@ -21,7 +21,8 @@ public class GeneticAlgorithm : MonoBehaviour
             Minion minion = minionObject.GetComponent<Minion>();
 
             // Initialize minion attributes randomly or using some logic
-            minion.Initialize(Random.Range(10, 30), Random.Range(10, 30), Random.Range(4f, 6f), Random.Range(3f, 6f));
+            minion.Initialize(Random.Range(10, 30), Random.Range(10, 30), 
+                Random.Range(4f, 6f), Random.Range(3f, 6f));
 
             // Add the instantiated Minion to the population
             population.Add(minion);
@@ -145,7 +146,7 @@ public class GeneticAlgorithm : MonoBehaviour
         float childRotation = (parent1.rotationSpeed + parent2.rotationSpeed) / 2f;
 
         // Instantiate and initialize the child minion
-        GameObject childObject = InstantiateMinionPrefab("Minion"); // Adjust the prefab path
+        GameObject childObject = InstantiateMinionPrefab("Minion");
         Minion child = childObject.GetComponent<Minion>();
         child.Initialize(childHealth, childDamage, childMovement, childRotation);
         Debug.Log("Instantiate and initialize the child minion");
