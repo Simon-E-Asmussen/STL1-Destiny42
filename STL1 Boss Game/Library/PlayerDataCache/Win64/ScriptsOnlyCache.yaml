@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - CharacterSelection
     - GameManager
     - GameUIManager
+    - GeneticAlgorithm
     - Minion
     - PlayerController
     - PlayerDMR
@@ -130,6 +131,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2350}
     - Class: 114
       Script: {instanceID: 2506}
+    - Class: 114
+      Script: {instanceID: 2544}
     - Class: 114
       Script: {instanceID: 2782}
     - Class: 114
@@ -509,7 +512,7 @@ ScriptsOnlyBuild:
     className: DestroyAfterDelay
   - hash:
       serializedVersion: 2
-      Hash: 8cbafed0efffb2ee39250c798c4b1f1c
+      Hash: 4d21e8135e08976a621c96741ca78b15
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GeneticAlgorithm
@@ -833,7 +836,7 @@ ScriptsOnlyBuild:
     className: ObserverManager
   - hash:
       serializedVersion: 2
-      Hash: dbba67fcbd65f08207171c217f01bcf6
+      Hash: 8c793c0790d1f4d10d8ac66b5deb055b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Minion

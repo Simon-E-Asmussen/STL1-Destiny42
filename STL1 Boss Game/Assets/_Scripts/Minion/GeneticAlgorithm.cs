@@ -51,7 +51,6 @@ public class GeneticAlgorithm : MonoBehaviour
     
     private Vector3 RandomSpawnPosition()
     {
-        // Spawn close to 0,0,0 within a specified range
         float spawnRange = 5f;
         return new Vector3(Random.Range(-spawnRange, spawnRange), 2.6f, Random.Range(-spawnRange, spawnRange));
     }
@@ -115,18 +114,14 @@ public class GeneticAlgorithm : MonoBehaviour
     
     private float CalculateMinionFitness(Minion minion)
     {
-        // Customize this formula based on your fitness criteria
-        // For example, fitness = remaining health + damage dealt + survival time
-        // Customize the weights based on the importance of each factor
+        // Weights
         float healthWeight = 0.1f;
         float damageWeight = 1f;
         float timeWeight = 0.3f;
 
-        // Calculate the fitness score using a weighted sum
+        // Calculates the fitness score
         float fitness = (healthWeight * minion.healthLost) + (damageWeight * minion.damageDone) + (timeWeight * minion.timeSurvived);
         
-        //float fitness = minion.healthLost + minion.damageDone + (Time.time - minion.timeSurvived);
-
         return fitness;
     }
 
