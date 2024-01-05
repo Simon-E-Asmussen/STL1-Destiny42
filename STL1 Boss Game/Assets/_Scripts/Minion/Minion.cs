@@ -33,12 +33,12 @@ public class Minion : MonoBehaviour
 
     void Start()
     {
-        //stats
+        // Stats
         startingHealth = health;
         timeSpawned = Time.time;
         
         gameObject.SetActive(true);
-        // Find all player objects in the scene
+        // Finds all player objects in the scene
         players = GameObject.FindGameObjectsWithTag("Player");
         
         if (players.Length == 0)
@@ -57,7 +57,7 @@ public class Minion : MonoBehaviour
         {
             Debug.LogError("No players found");
         }
-        // Move towards the closest player
+        
         MoveTowardsClosestPlayer();
     }
     
@@ -67,7 +67,7 @@ public class Minion : MonoBehaviour
         if (other.CompareTag("Player") && Time.time - lastDamageTime > damageCooldown)
         {
             Debug.Log("found player tagged object");
-            // Deal damage to the player
+            
             PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
 
             if (playerHealth != null)

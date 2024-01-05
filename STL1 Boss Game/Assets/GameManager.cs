@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         geneticAlgorithm = new GeneticAlgorithm();
-        geneticAlgorithm.InitializePopulation(5); // Adjust population size as needed
+        geneticAlgorithm.InitializePopulation(5);
     }
 
     void Update()
@@ -17,7 +17,6 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             geneticAlgorithm.EvolvePopulation();
-            // Update the game with the evolved population
         }
 
         if (!GameObject.Find("Minion(Clone)"))

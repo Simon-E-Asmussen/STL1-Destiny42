@@ -17,10 +17,10 @@ public class GeneticAlgorithm : MonoBehaviour
             // Load Minion prefab from Resources folder
             GameObject minionObject = InstantiateMinionPrefab(minionPrefabPath);
 
-            // Get Minion component from the instantiated object
+            // Get Minion Script from the instantiated object
             Minion minion = minionObject.GetComponent<Minion>();
 
-            // Initialize minion attributes randomly or using some logic
+            // Initialize minion attributes randomly
             minion.Initialize(Random.Range(10, 30), Random.Range(10, 30), 
                 Random.Range(4f, 6f), Random.Range(3f, 6f));
 
@@ -42,8 +42,7 @@ public class GeneticAlgorithm : MonoBehaviour
 
         // Instantiate Minion prefab
         GameObject minionObject = Instantiate(minionPrefab, RandomSpawnPosition(), Quaternion.identity);
-
-        // Ensure the spawned Minion is active
+        
         minionObject.SetActive(true);
 
         return minionObject;
@@ -59,10 +58,10 @@ public class GeneticAlgorithm : MonoBehaviour
     {
         List<Minion> newPopulation = new List<Minion>();
 
-        // Selection: Choose individuals from the current population based on fitness
+        // Choose individuals from the current population based on fitness
         List<Minion> selectedMinions = SelectBestFitMinions(population);
 
-        // Crossover: Combine attributes of selected individuals to create new minions
+        // Combines attributes of selected individuals to create new minions
         for (int i = 0; i < population.Count; i++)
         {
             Minion parent1 = selectedMinions[Random.Range(0, selectedMinions.Count)];
@@ -73,21 +72,21 @@ public class GeneticAlgorithm : MonoBehaviour
             newPopulation.Add(child);
         }
 
-        // Mutation: Introduce random changes in attributes of some minions
+        // Random changes in attributes of some minions
         for (int i = 0; i < newPopulation.Count; i++)
         {
             Mutate(newPopulation[i]);
             Debug.Log("Mutates the children");
         }
 
-        // Update the population with the new one
+        // Update the population with the new population
         population = newPopulation;
         Debug.Log("Mutated population: " + population);
     }
 
     private List<Minion> SelectBestFitMinions(List<Minion> minions)
     {
-        // Sort minions based on a custom fitness score (health + damage dealt + survival time)
+        // Sort minions based on a custom fitness score
         minions.Sort((minion1, minion2) =>
         {
             float score1 = CalculateMinionFitness(minion1);
@@ -134,7 +133,7 @@ public class GeneticAlgorithm : MonoBehaviour
 
     private Minion CreateChildMinion(Minion parent1, Minion parent2)
     {
-        // Compute child values (for example, taking the average)
+        // Compute child values
         int childHealth = (parent1.startingHealth + parent2.startingHealth) / 2;
         int childDamage = (parent1.damage + parent2.damage) / 2;
         float childMovement = (parent1.movementSpeed + parent2.movementSpeed) / 2f;
